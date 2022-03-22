@@ -2,6 +2,7 @@ import numpy as np
 import copy as cp
 import CubeActions
 import random
+import tensorflow as tf
 
 class RubikCube():
     def __init__(self):
@@ -56,6 +57,15 @@ class RubikCube():
             print("     ", int(state[1][i][0]), int(state[1][i][1]), int(state[1][i][2]))
         print()
 
+    def reward(self,state,action):
+        currentCompletion = np.array(state) - np.array(self.initial)
+        currentCompletion = (54 - np.count_nonzero(currentCompletion))/54
+        nextState = action(state)
+        nextCompletion = np.array(nextState) - np.array(self.initial)
+        nextCompletion = (54 - np.count_nonzero(nextCompletion))/54
+        reward = nextCompletion-currentCompletion
+
+        return reward
 
 cube = RubikCube()
 cube.toString(cube.getInitialState())
@@ -66,3 +76,4 @@ cube.move(actions[1])
 cube.toString(cube.getCurrentState())
 print(cube.isTerminal(cube.getCurrentState()))
 print(cube.isTerminal(cube.getInitialState()))
+print(cube.reward(cube.getStartState(),actions[1]))
