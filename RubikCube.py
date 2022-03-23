@@ -61,19 +61,22 @@ class RubikCube():
         currentCompletion = np.array(state) - np.array(self.initial)
         currentCompletion = (54 - np.count_nonzero(currentCompletion))/54
         nextState = action(state)
-        nextCompletion = np.array(nextState) - np.array(self.initial)
-        nextCompletion = (54 - np.count_nonzero(nextCompletion))/54
-        reward = nextCompletion-currentCompletion
+        if self.isTerminal(nextState):
+            reward = 10
+        else:
+            nextCompletion = np.array(nextState) - np.array(self.initial)
+            nextCompletion = (54 - np.count_nonzero(nextCompletion))/54
+            reward = nextCompletion-currentCompletion
 
         return reward
 
 cube = RubikCube()
-cube.toString(cube.getInitialState())
-cube.toString(cube.getStartState())
-cube.toString(cube.getCurrentState())
-actions = cube.getActions()
-cube.move(actions[1])
-cube.toString(cube.getCurrentState())
-print(cube.isTerminal(cube.getCurrentState()))
-print(cube.isTerminal(cube.getInitialState()))
-print(cube.reward(cube.getStartState(),actions[1]))
+# cube.toString(cube.getInitialState())
+# cube.toString(cube.getStartState())
+# cube.toString(cube.getCurrentState())
+# actions = cube.getActions()
+# cube.move(actions[1])
+# cube.toString(cube.getCurrentState())
+# print(cube.isTerminal(cube.getCurrentState()))
+# print(cube.isTerminal(cube.getInitialState()))
+# print(cube.reward(cube.getStartState(),actions[1]))
