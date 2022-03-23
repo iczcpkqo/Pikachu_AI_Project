@@ -1,6 +1,6 @@
 import random
 
-from RubikCube import cube
+from RubikCube2 import cube
 from collections import Counter
 
 class QLearningAgent():
@@ -76,17 +76,20 @@ class QLearningAgent():
 
 
 
-agent = QLearningAgent(0.2,1,0.2)
+agent = QLearningAgent(0.8,1,0.2)
 # agent.selectAction(cube.getCurrentState())
 for episode in range(1000):
     state = cube.getStartState()
     print('Episode:',episode+1)
+    i = 1
     while True:
+        print(i)
         # generate action
         action = agent.selectAction(state)
         # update Q values
         agent.update(state,action)
         state = action(state)
+        i = i + 1
         if cube.isTerminal(state):
             break
     print(agent.qValues)
