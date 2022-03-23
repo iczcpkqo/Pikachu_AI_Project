@@ -2,7 +2,6 @@ import numpy as np
 import copy as cp
 import CubeActions
 import random
-import tensorflow as tf
 
 class RubikCube():
     def __init__(self):
