@@ -1,5 +1,6 @@
 import random
-import Rubik
+# import Rubik
+import RubikCube
 import math
 import copy
 import matplotlib.pyplot as plt
@@ -71,13 +72,14 @@ class SimulatedAnnealing:
         plt.xlabel("Generation")
         plt.show()
 
-    def simulated_annealing(self, initalState):
-        rubik = Rubik.Rubik()
-        rubik.execute(initalState)
+    def simulated_annealing(self, rubik, initalState):
+
+        # rubik.execute(initalState)
         self.currentSolution = rubik
 
         while(self.temperature >= self.temperatureLimit and self.currentGeneration <= self.maxGeneration):
             candidate = copy.deepcopy(self.currentSolution)
+            candidate.toString(candidate.getStartState())
 
             permuteRandom = random.randint(0, 5)
 
@@ -131,9 +133,9 @@ class SimulatedAnnealing:
 
 
 
-scrambleInput = input("Enter the scramble string input: ")
-scramble = scrambleInput.split(" ")
-
+# scrambleInput = input("Enter the scramble string input: ")
+# scramble = scrambleInput.split(" ")
+rubik = RubikCube.RubikCube()
 simulatedAnnealing = SimulatedAnnealing()
-simulatedAnnealing.simulated_annealing(scramble)
+simulatedAnnealing.simulated_annealing(rubik, rubik.getStartState())
 

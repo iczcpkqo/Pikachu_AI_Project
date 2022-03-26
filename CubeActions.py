@@ -34,6 +34,7 @@ def _U(FACES):
 def U2(FACES):
     for i in range(2):
         U(FACES)
+    return FACES
     '''
     FACES[0] = clockwise(clockwise(FACES[0]))
     FACES_new = cp.deepcopy(FACES)
@@ -59,6 +60,7 @@ def _D(FACES):
 def D2(FACES):
     for i in range(2):
         D(FACES)
+    return FACES
     '''
     FACES[1] = clockwise(clockwise(FACES[1]))
     FACES_new = cp.deepcopy(FACES)
@@ -88,6 +90,7 @@ def _L(FACES):
 def L2(FACES):
     for i in range(2):
         L(FACES)
+    return FACES
 
 
 # 上（0），下（1），左（2），右（3），前（4），后（5）
@@ -114,6 +117,7 @@ def _R(FACES):
 def R2(FACES):
     for i in range(2):
         R(FACES)
+    return FACES
 
 
 def F(FACES):
@@ -137,6 +141,7 @@ def _F(FACES):
 def F2(FACES):
     for _ in range(2):
         F(FACES)
+    return FACES
 
 
 # 上（0），下（1），左（2），右（3），前（4），后（5）
@@ -161,7 +166,125 @@ def _B(FACES):
 def B2(FACES):
     for i in range(2):
         B(FACES)
+    return FACES
 
+def E(FACES):
+    FACES_new = cp.deepcopy(FACES)
+    a, b, c, d = FACES_new[4], FACES_new[2], FACES_new[5], FACES_new[3]
+    FACES[4][1], FACES[2][1], FACES[5][1], FACES[3][1] = b[1], c[1], d[1], a[1]
+    return FACES
+
+def _E(FACES):
+    FACES_new = cp.deepcopy(FACES)
+    a, b, c, d = FACES_new[4], FACES_new[2], FACES_new[5], FACES_new[3]
+    FACES[4][1], FACES[2][1], FACES[5][1], FACES[3][1] = d[1], a[1], b[1], c[1]
+    return FACES
+
+def E2(FACES):
+    for i in range(2):
+        E(FACES)
+    return FACES
+
+def M(FACES):
+    FACES_new = cp.deepcopy(FACES)
+    a, b, c, d = clockwise(FACES_new[4]), clockwise(FACES_new[1]), antiClockwise(FACES_new[5]), clockwise(FACES_new[0])
+    e, f, g, h = cp.deepcopy(a), cp.deepcopy(b), cp.deepcopy(c), cp.deepcopy(d)
+    e[1], f[1], g[1], h[1] = d[1], a[1], b[1], c[1]
+    FACES[4], FACES[1], FACES[5], FACES[0] = antiClockwise(e), antiClockwise(f), clockwise(g), antiClockwise(h)
+    return FACES
+
+def _M(FACES):
+    FACES_new = cp.deepcopy(FACES)
+    a, b, c, d = clockwise(FACES_new[4]), clockwise(FACES_new[1]), antiClockwise(FACES_new[5]), clockwise(FACES_new[0])
+    e, f, g, h = cp.deepcopy(a), cp.deepcopy(b), cp.deepcopy(c), cp.deepcopy(d)
+    e[1], f[1], g[1], h[1] = b[1], c[1], d[1], a[1]
+    FACES[4], FACES[1], FACES[5], FACES[0] = antiClockwise(e), antiClockwise(f), clockwise(g), antiClockwise(h)
+    return FACES
+
+def M2(FACES):
+    for i in range(2):
+        M(FACES)
+    return FACES
+
+def S(FACES):
+    FACES_new = cp.deepcopy(FACES)
+    a, b, c, d = clockwise(clockwise(FACES_new[0])), FACES_new[1], antiClockwise(FACES_new[2]), clockwise(FACES_new[3])
+    e, f, g, h = cp.deepcopy(a), cp.deepcopy(b), cp.deepcopy(c), cp.deepcopy(d)
+    e[1], g[1], f[1], h[1] = c[1], b[1], d[1], a[1]
+    FACES[0], FACES[1], FACES[2], FACES[3] = clockwise(clockwise(e)), f, clockwise(g), antiClockwise(h)
+    return FACES
+
+def _S(FACES):
+    FACES_new = cp.deepcopy(FACES)
+    a, b, c, d = clockwise(clockwise(FACES_new[0])), FACES_new[1], antiClockwise(FACES_new[2]), clockwise(FACES_new[3])
+    e, f, g, h = cp.deepcopy(a), cp.deepcopy(b), cp.deepcopy(c), cp.deepcopy(d)
+    g[1], f[1], h[1], e[1] = a[1], c[1], b[1], d[1]
+    FACES[0], FACES[1], FACES[2], FACES[3] = clockwise(clockwise(e)), f, clockwise(g), antiClockwise(h)
+    return FACES
+
+def S2(FACES):
+    for i in range(2):
+        S(FACES)
+    return FACES
+
+def X(FACES):
+    _L(FACES)
+    _M(FACES)
+    R(FACES)
+    return FACES
+
+def _X(FACES):
+    L(FACES)
+    M(FACES)
+    _R(FACES)
+    return FACES
+
+def X2(FACES):
+    L2(FACES)
+    M2(FACES)
+    R2(FACES)
+    return FACES
+
+
+def Y(FACES):
+    U(FACES)
+    _E(FACES)
+    _D(FACES)
+    return FACES
+
+
+def _Y(FACES):
+    _U(FACES)
+    E(FACES)
+    D(FACES)
+    return FACES
+
+
+def Y2(FACES):
+    U2(FACES)
+    E2(FACES)
+    D2(FACES)
+    return FACES
+
+def Z(FACES):
+    F(FACES)
+    S(FACES)
+    _B(FACES)
+    return FACES
+
+
+def _Z(FACES):
+    _F(FACES)
+    _S(FACES)
+    B(FACES)
+    return FACES
+
+
+def Z2(FACES):
+    F2(FACES)
+    S2(FACES)
+    B2(FACES)
+    return FACES
 
 '''
                           |************|

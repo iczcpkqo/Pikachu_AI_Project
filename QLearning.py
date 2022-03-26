@@ -1,6 +1,6 @@
 import random
 import copy as cp
-from RubikCube2 import cube
+from RubikCube import cube
 from collections import Counter
 
 class QLearningAgent():
