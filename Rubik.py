@@ -68,11 +68,11 @@ class Rubik:
         destination[1] = origin[1]
         destination[2] = origin[2]
 # X轴上的操作
-# 拧最下面那一层90（逆
+# 拧最下面那一层90（顺
     def d(self):
         self.faces[BOTTOM] = np.rot90(self.faces[BOTTOM], axes=CLOCKWISE)
         self.swap_x((FRONT, 2), (RIGHT, 2), (BACK, 2), (LEFT, 2))
-# 顺
+# 逆
     def d_prime(self):
         self.faces[BOTTOM] = np.rot90(self.faces[BOTTOM], axes=COUNTERCLOCKWISE)
         self.swap_x((FRONT, 2), (LEFT, 2), (BACK, 2), (RIGHT, 2))
@@ -131,11 +131,11 @@ class Rubik:
 
         self.copy_tiles(self.faces[t1[0]][:, t1[1]], backup)
 
-# 拧最左边那一列90（逆
+# 拧最左边那一列90（顺
     def l(self):
         self.faces[LEFT] = np.rot90(self.faces[LEFT], axes=CLOCKWISE)
         self.swap_y((BOTTOM, 0, True), (BACK, 2, True), (TOP, 0, False), (FRONT, 0, False))
-# 顺90
+# 逆90
     def l_prime(self):
         self.faces[LEFT] = np.rot90(self.faces[LEFT], axes=COUNTERCLOCKWISE)
         self.swap_y((BOTTOM, 0, False), (FRONT, 0, False), (TOP, 0, True), (BACK, 2, True))
@@ -143,10 +143,10 @@ class Rubik:
     def l2(self):
         self.l()
         self.l()
-# 拧中间一列90逆
+# 拧中间一列90顺
     def m(self):
         self.swap_y((BOTTOM, 1, True), (BACK, 1, True), (TOP, 1, False), (FRONT, 1, False))
-# 顺
+# 逆
     def m_prime(self):
         self.swap_y((BOTTOM, 1, False), (FRONT, 1, False), (TOP, 1, True), (BACK, 1, True))
 
@@ -191,7 +191,7 @@ class Rubik:
 
         self.copy_tiles(self.faces[t1[0]][t1[1]], backup)
 
-# 最后边那一层90逆
+# 最后边那一层90顺
     def b(self):
         self.faces[BACK] = np.rot90(self.faces[BACK], axes=CLOCKWISE)
         self.swap_z((BOTTOM, 2, True), (RIGHT, 2, False), (TOP, 0, True), (LEFT, 0, False))
@@ -203,7 +203,7 @@ class Rubik:
     def b2(self):
         self.b()
         self.b()
-# 最前边那一层90逆
+# 最前边那一层90顺
     def f(self):
         self.faces[FRONT] = np.rot90(self.faces[FRONT], axes=CLOCKWISE)
         self.swap_z((BOTTOM, 0, False), (LEFT, 2, True), (TOP, 2, False), (RIGHT, 0, True))
@@ -215,7 +215,7 @@ class Rubik:
     def f2(self):
         self.f()
         self.f()
-# 中间那一层90逆
+# 中间那一层90顺
     def s(self):
         self.swap_z((BOTTOM, 1, False), (LEFT, 1, True), (TOP, 1, False), (RIGHT, 1, True))
 
@@ -226,13 +226,13 @@ class Rubik:
         self.s()
         self.s()
 
-# 上面变前面
-    def x_full(self):
-        self.l_prime() # y轴最左边一列顺时针拧90
-        self.m_prime() # y轴中间一列拧90
-        self.r()  # y轴拧最右边那一列逆90
-
 # 上面变后面
+    def x_full(self):
+        self.l_prime() # y轴最左边一列逆时针拧90
+        self.m_prime() # y轴中间一列逆拧90
+        self.r()  # y轴拧最右边那一列顺90
+
+# 上面变前面
     def x_prime_full(self):
         self.l()
         self.m()
@@ -241,26 +241,26 @@ class Rubik:
     def x2_full(self):
         self.x_full()
         self.x_full()
-# 正面变右面
+# 正面变左面
     def y_full(self):
         self.u()
         self.e_prime()
         self.d_prime()
-# 正面变左面
+# 正面变右面
     def y_prime_full(self):
         self.u_prime()
         self.e()
         self.d()
-# 正面变背面
+# 正面变前面
     def y2_full(self):
         self.y_full()
         self.y_full()
-# 上面变左面
+# 上面变右面
     def z_full(self):
         self.f()
         self.s()
         self.b_prime()
-# 上面变右面
+# 上面变左面
     def z_prime_full(self):
         self.f_prime()
         self.s_prime()
@@ -277,7 +277,6 @@ class Rubik:
     def execute(self, moves):
         for move in moves:
             self.movesLookup[move]()
-
         self.moveHistory.append(moves)
         self.fitness()
 
