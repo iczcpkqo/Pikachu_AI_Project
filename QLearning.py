@@ -11,7 +11,7 @@ class QLearningAgent():
         self.qValues = Counter()
 
     def getQValue(self,state,action):
-        qValue = self.qValues[(self.converState(state),action)]
+        qValue = self.qValues[(self.converState(state),tuple(action))]
         return qValue
 
     def computeValueFromQValues(self, state):
@@ -24,7 +24,7 @@ class QLearningAgent():
             return 0.0
         # get q value
         for action in actions:
-            action_counter[action] = self.getQValue(state, action)
+            action_counter[tuple(action)] = self.getQValue(state, action)
         # get maximum value
         max = action_counter[self.argMax(action_counter)]
         return max
@@ -39,7 +39,7 @@ class QLearningAgent():
             return None
         # get q value
         for action in actions:
-            action_counter[action] = self.getQValue(state, action)
+            action_counter[tuple(action)] = self.getQValue(state, action)
         # get best action
         act = self.argMax(action_counter)
         return act
@@ -59,8 +59,8 @@ class QLearningAgent():
     def update(self, state, action):
         # sample = R(state,action,nextState) + discount * max(Q(nextState,action'))
         # new Q value = (1-alpha) * old Q value + alpha * sample
-        sample = cube.reward(state,action) + self.discount * self.computeValueFromQValues(action(state))
-        self.qValues[(self.converState(state), action)] = (1 - self.alpha) * self.getQValue(state, action) + self.alpha * sample
+        sample = cube.reward(state,action) + self.discount * self.computeValueFromQValues(cube.nextState(action,state))
+        self.qValues[(self.converState(state), tuple(action))] = (1 - self.alpha) * self.getQValue(state, action) + self.alpha * sample
 
     def argMax(self,counter):
         if len(list(counter.keys())) == 0:
@@ -79,19 +79,21 @@ class QLearningAgent():
 agent = QLearningAgent(0.8,1,0.2)
 # agent.selectAction(cube.getCurrentState())
 for episode in range(1000):
-    state = cube.getStartState()
+    state = cp.deepcopy(cube.getStartState())
+    cube.toString(state)
     print('Episode:',episode+1)
     i = 1
     while True:
+        if cube.isTerminal(state):
+            break
         print(i)
         # generate action
         action = agent.selectAction(state)
         # update Q values
         agent.update(state,action)
-        state = action(state)
+        state = cube.nextState(action,state)
         i = i + 1
-        if cube.isTerminal(state):
-            break
+
     print(agent.qValues)
 
 qValueDic = {}

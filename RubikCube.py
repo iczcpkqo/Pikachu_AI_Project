@@ -57,8 +57,11 @@ class RubikCube():
 
     def randomGenerate(self):
         startState = cp.deepcopy(self.initial)
-        actions = [CubeActions.L,CubeActions.U]
-        for action in actions:
+        case1 = [CubeActions.L,CubeActions.U]
+        case2 = [CubeActions.B,CubeActions.M,CubeActions.L]
+        case3 = [CubeActions.E,CubeActions.F,CubeActions._D,CubeActions.L]
+        case4 = [CubeActions.U,CubeActions.S2,CubeActions._L,CubeActions._E,CubeActions.B]
+        for action in case1:
             startState = action(startState)
         # for i in range(100):
         #     startState = random.choice(actions)(startState)
@@ -71,11 +74,21 @@ class RubikCube():
         return self.state
 
     def getActions(self):
-        actions = [CubeActions.B, CubeActions.D, CubeActions.F,
-                   CubeActions.L, CubeActions.R, CubeActions.U,
-                   CubeActions._B, CubeActions._D, CubeActions._F,
-                   CubeActions._L, CubeActions._R, CubeActions._U
-                   ]
+        # actions = [CubeActions.B, CubeActions.D, CubeActions.F,
+        #            CubeActions.L, CubeActions.R, CubeActions.U,
+        #            CubeActions._B, CubeActions._D, CubeActions._F,
+        #            CubeActions._L, CubeActions._R, CubeActions._U
+        #            ]
+        actions = []
+        for action in self.ROTATIONS:
+            actions.append([self.movesLookup[action]])
+        for action in self.ROTATIONS_Z:
+            actions.append([self.movesLookup[action]])
+        for action in self.PERMUTATIONS:
+            temp = []
+            for a in action:
+                temp.append(self.movesLookup[a])
+            actions.append(temp)
         return actions
 
     # def moveRotations(self):
@@ -119,10 +132,17 @@ class RubikCube():
             print("     ", int(state[1][i][0]), int(state[1][i][1]), int(state[1][i][2]))
         print()
 
+    def nextState(self,action,state):
+        nextState = cp.deepcopy(state)
+        for a in action:
+            nextState = a(nextState)
+        return nextState
+
+
     def reward(self,state,action):
         currentCompletion = np.array(state) - np.array(self.initial)
         currentCompletion = 54 - np.count_nonzero(currentCompletion)
-        nextState = action(state)
+        nextState = self.nextState(action,state)
         if self.isTerminal(nextState):
             reward = 100
         else:

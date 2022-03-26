@@ -5,27 +5,27 @@ import math
 import copy
 import matplotlib.pyplot as plt
 
-ROTATIONS = ["x", "x'", "x2", "y", "y'", "y2"]
-
-ROTATIONS_Z = ["z", "z'", "z2"]
-
-PERMUTATIONS = [
-    "D L D' L2 U L' B2 R' U R B2 U' L2".split(" "),
-    "R' U L' U2 R U' L R' U L' U2 R U' L U'".split(" "),
-    "L' U2 L R' F2 R".split(" "),
-    "R' U2 R L' B2 L".split(" "),
-    "M2 U M2 U2 M2 U M2".split(" "),
-    "F' L' B' R' U' R U' B L F R U R' U".split(" "),
-    "F R B L U L' U B' R' F' L' U' L U'".split(" "),
-    "L U' R U2 L' U R' L U' R U2 L' U R' U".split(" "),
-    "F' U B U' F U B' U'".split(" "),
-    "F U' B' U F' U' B U".split(" "),
-    "U2 B U2 B' R2 F R' F' U2 F' U2 F R'".split(" "),
-    "U2 R U2 R' F2 L F' L' U2 L' U2 L F'".split(" "),
-    "U' B2 D2 L' F2 D2 B2 R' U'".split(" "),
-    "U B2 D2 R F2 D2 B2 L U".split(" "),
-    "D' R' D R2 U' R B2 L U' L' B2 U R2".split(" ")
-]
+# ROTATIONS = ["x", "x'", "x2", "y", "y'", "y2"]
+#
+# ROTATIONS_Z = ["z", "z'", "z2"]
+#
+# PERMUTATIONS = [
+#     "D L D' L2 U L' B2 R' U R B2 U' L2".split(" "),
+#     "R' U L' U2 R U' L R' U L' U2 R U' L U'".split(" "),
+#     "L' U2 L R' F2 R".split(" "),
+#     "R' U2 R L' B2 L".split(" "),
+#     "M2 U M2 U2 M2 U M2".split(" "),
+#     "F' L' B' R' U' R U' B L F R U R' U".split(" "),
+#     "F R B L U L' U B' R' F' L' U' L U'".split(" "),
+#     "L U' R U2 L' U R' L U' R U2 L' U R' U".split(" "),
+#     "F' U B U' F U B' U'".split(" "),
+#     "F U' B' U F' U' B U".split(" "),
+#     "U2 B U2 B' R2 F R' F' U2 F' U2 F R'".split(" "),
+#     "U2 R U2 R' F2 L F' L' U2 L' U2 L F'".split(" "),
+#     "U' B2 D2 L' F2 D2 B2 R' U'".split(" "),
+#     "U B2 D2 R F2 D2 B2 L U".split(" "),
+#     "D' R' D R2 U' R B2 L U' L' B2 U R2".split(" ")
+# ]
 
 
 class SimulatedAnnealing:
@@ -39,16 +39,16 @@ class SimulatedAnnealing:
         self.progressFitness = []
 
     def make_random_permutation(self):
-        r = random.randint(0, len(PERMUTATIONS) - 1)
-        return PERMUTATIONS[r]
+        r = random.randint(0, len(rubik.PERMUTATIONS) - 1)
+        return rubik.PERMUTATIONS[r]
 
     def make_random_full_rotation(self):
-        r = random.randint(0, len(ROTATIONS) - 1)
-        return [ROTATIONS[r]]
+        r = random.randint(0, len(rubik.ROTATIONS) - 1)
+        return [rubik.ROTATIONS[r]]
 
     def make_random_rotation_z(self):
-        r = random.randint(0, len(ROTATIONS_Z) - 1)
-        return [ROTATIONS_Z[r]]
+        r = random.randint(0, len(rubik.ROTATIONS_Z) - 1)
+        return [rubik.ROTATIONS_Z[r]]
 
 
     def accepting_probability(self, candidateFitness):
