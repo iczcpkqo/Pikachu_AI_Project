@@ -31,9 +31,9 @@ def _U(FACES):
     FACES[4][0], FACES[2][0], FACES[5][0], FACES[3][0] = b[0], c[0], d[0], a[0]
     return FACES
 
-# def U2(FACES):
-#     for i in range(2):
-#         U(FACES)
+def U2(FACES):
+    for i in range(2):
+        U(FACES)
     '''
     FACES[0] = clockwise(clockwise(FACES[0]))
     FACES_new = cp.deepcopy(FACES)
@@ -56,9 +56,9 @@ def _D(FACES):
     FACES[4][2], FACES[2][2], FACES[5][2], FACES[3][2] = d[2], a[2], b[2], c[2]
     return FACES
 
-# def D2(FACES):
-#     for i in range(2):
-#         D(FACES)
+def D2(FACES):
+    for i in range(2):
+        D(FACES)
     '''
     FACES[1] = clockwise(clockwise(FACES[1]))
     FACES_new = cp.deepcopy(FACES)
@@ -85,9 +85,9 @@ def _L(FACES):
     FACES[4], FACES[1], FACES[5], FACES[0] = antiClockwise(e), antiClockwise(f), clockwise(g), antiClockwise(h)
     return FACES
 
-# def L2(FACES):
-#     for i in range(2):
-#         L(FACES)
+def L2(FACES):
+    for i in range(2):
+        L(FACES)
 
 
 # 上（0），下（1），左（2），右（3），前（4），后（5）
@@ -111,9 +111,9 @@ def _R(FACES):
     FACES[4], FACES[1], FACES[5], FACES[0] = clockwise(e), clockwise(f), antiClockwise(g), clockwise(h)
     return FACES
 
-# def R2(FACES):
-#     for i in range(2):
-#         R(FACES)
+def R2(FACES):
+    for i in range(2):
+        R(FACES)
 
 
 def F(FACES):
@@ -134,9 +134,9 @@ def _F(FACES):
     FACES[0], FACES[1], FACES[2], FACES[3] = clockwise(clockwise(e)), f, clockwise(g), antiClockwise(h)
     return FACES
 
-# def F2(FACES):
-#     for _ in range(2):
-#         F(FACES)
+def F2(FACES):
+    for _ in range(2):
+        F(FACES)
 
 
 # 上（0），下（1），左（2），右（3），前（4），后（5）
@@ -158,9 +158,9 @@ def _B(FACES):
     FACES[0], FACES[1], FACES[2], FACES[3] = e, clockwise(clockwise(f)), antiClockwise(g), clockwise(h)
     return FACES
 
-# def B2(FACES):
-#     for i in range(2):
-#         B(FACES)
+def B2(FACES):
+    for i in range(2):
+        B(FACES)
 
 
 '''

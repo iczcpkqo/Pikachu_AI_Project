@@ -1,5 +1,5 @@
 import random
-
+import copy as cp
 from RubikCube2 import cube
 from collections import Counter
 
@@ -94,5 +94,19 @@ for episode in range(1000):
             break
     print(agent.qValues)
 
+qValueDic = {}
+keys = agent.qValues.keys()
+for key in keys:
+    qValueDic[key[0]] = {key[1]:agent.qValues[key]}
+print(qValueDic)
+
+state = cp.deepcopy(cube.getCurrentState())
+cube.toString(state)
+while cube.isTerminal(state) == False:
+    actions = qValueDic[agent.converState(state)]
+    best_action = max(actions, key=actions.get)
+    cube.move(best_action)
+    state = cp.deepcopy(cube.getCurrentState())
+    cube.toString(state)
 
 
