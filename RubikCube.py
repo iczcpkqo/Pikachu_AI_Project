@@ -74,11 +74,6 @@ class RubikCube():
         return self.state
 
     def getActions(self):
-        # actions = [CubeActions.B, CubeActions.D, CubeActions.F,
-        #            CubeActions.L, CubeActions.R, CubeActions.U,
-        #            CubeActions._B, CubeActions._D, CubeActions._F,
-        #            CubeActions._L, CubeActions._R, CubeActions._U
-        #            ]
         actions = []
         for action in self.ROTATIONS:
             actions.append([self.movesLookup[action]])
@@ -89,6 +84,19 @@ class RubikCube():
             for a in action:
                 temp.append(self.movesLookup[a])
             actions.append(temp)
+        return actions
+
+    def getBasicActions(self):
+        actions = [CubeActions.B, CubeActions.D, CubeActions.F,
+                   CubeActions.L, CubeActions.R, CubeActions.U,
+                   CubeActions._B, CubeActions._D, CubeActions._F,
+                   CubeActions._L, CubeActions._R, CubeActions._U,
+                   CubeActions.B2, CubeActions.D2, CubeActions.F2,
+                   CubeActions.L2, CubeActions.R2, CubeActions.U2,
+                   CubeActions.E, CubeActions.S, CubeActions.M,
+                   CubeActions._E, CubeActions._S, CubeActions._M,
+                   CubeActions.E2, CubeActions.S2, CubeActions.M2,
+                   ]
         return actions
 
     # def moveRotations(self):
