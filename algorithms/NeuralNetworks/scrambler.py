@@ -6,7 +6,7 @@ sys.path.append("lib/cube-solver/twophase")
 import random
 import numpy as np
 
-from model.cube import Cube
+from algorithms.NeuralNetworks.cube import Cube
 
 from twophase import solve
 

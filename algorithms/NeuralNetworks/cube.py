@@ -1,4 +1,4 @@
-# This file represents the model for the cube. The center white piece is always facing the bottom, and the center green piece is always facing forward.
+# This file represents the NeuralNetworks for the cube. The center white piece is always facing the bottom, and the center green piece is always facing forward.
 
 import copy
 import numpy as np

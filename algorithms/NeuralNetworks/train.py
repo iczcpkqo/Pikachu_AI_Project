@@ -1,18 +1,15 @@
-import json
 import os
 
 # Disable tensorflow warnings
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
-import tensorflow as tf
 import numpy as np
 import time
 
 from tensorflow import keras
-from tensorflow.keras.layers import Dense, Input
-from scrambler import generateData, fileExt, turns
-from model.cube import Cube
+from scrambler import fileExt, turns
+from algorithms.NeuralNetworks.cube import Cube
 
 # Hyperparameters
 trainingSize = 20000
@@ -37,7 +34,7 @@ def loadData(fileNum=0, filePathBase="d:/traing_data/"):
     return X, Y
 
 
-# Defines model layers, compiles model
+# Defines NeuralNetworks layers, compiles NeuralNetworks
 def createModel():
     model = keras.Sequential([
         keras.layers.Input(shape=54),
@@ -52,21 +49,21 @@ def createModel():
         keras.layers.Dense(units=18, activation="softmax", name="dense8"),
     ])
 
-    # Compile model
+    # Compile NeuralNetworks
     model.compile(loss="sparse_categorical_crossentropy",
                   optimizer="adam", metrics=["accuracy"])
 
     return model
 
 
-# Returns previously trained model
+# Returns previously trained NeuralNetworks
 def getTrainedModel():
     model = createModel()
     model.load_weights(checkpointPath)
     return model
 
 
-# Trains model
+# Trains NeuralNetworks
 def trainModel(loadPrev=True):
     model = createModel()
 
@@ -83,7 +80,7 @@ def trainModel(loadPrev=True):
     model.summary()
 
 
-# Get callbacks for model.fit()
+# Get callbacks for NeuralNetworks.fit()
 def getCallbacks():
     checkpoint = keras.callbacks.ModelCheckpoint(filepath=checkpointPath, monitor="val_loss", verbose=1,
                                                  save_weights_only=True, save_best_only=True)
@@ -116,7 +113,7 @@ def predict(stickers):
     return soln
 
 
-# Predicts single move from single sticker mapping via model
+# Predicts single move from single sticker mapping via NeuralNetworks
 # Input size: 6x3x3 tensor
 # Returns: index of move
 def predictMove(stickers, model):

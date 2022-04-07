@@ -3,8 +3,23 @@ import copy as cp
 import CubeActions
 import random
 
+
 class RubikCube():
     def __init__(self):
+
+        self.GREEN = "G"
+        self.ORANGE = "O"
+        self.RED = "R"
+        self.WHITE = "W"
+        self.YELLOW = "Y"
+        self.BLUE = "B"
+
+        self.FRONT = "Front"
+        self.LEFT = "Left"
+        self.BACK = "Back"
+        self.RIGHT = "Right"
+        self.TOP = "Top"
+        self.BOTTOM = "Bottom"
         # 创建六个面，放在faces列表里，顺序为上（0），下（1），左（2），右（3），前（4），后（5）
         self.initial = [np.zeros((3, 3))]
         for i in range(1, 6):
@@ -12,6 +27,19 @@ class RubikCube():
 
         self.startState = self.randomGenerate()
         self.state = cp.deepcopy(self.startState)
+
+        self.faces = {
+            self.FRONT: np.full((3, 3), self.GREEN),
+            self.LEFT: np.full((3, 3), self.ORANGE),
+            self.RIGHT: np.full((3, 3), self.RED),
+            self.TOP: np.full((3, 3), self.WHITE),
+            self.BOTTOM: np.full((3, 3), self.YELLOW),
+            self.BACK: np.full((3, 3), self.BLUE),
+        }
+
+        self.SINGLE_MOVES = ["U", "U'", "U2", "D", "D'", "D2",
+                             "R", "R'", "R2", "L", "L'", "L2",
+                             "F", "F'", "F2", "B", "B'", "B2"]
 
         self.ROTATIONS = ["x", "x'", "x2", "y", "y'", "y2"]
         self.ROTATIONS_Z = ["z", "z'", "z2"]
@@ -57,10 +85,10 @@ class RubikCube():
 
     def randomGenerate(self):
         startState = cp.deepcopy(self.initial)
-        case1 = [CubeActions.L,CubeActions.U]
-        case2 = [CubeActions.B,CubeActions.M,CubeActions.L]
-        case3 = [CubeActions.E,CubeActions.F,CubeActions._D,CubeActions.L]
-        case4 = [CubeActions.U,CubeActions.S2,CubeActions._L,CubeActions._E,CubeActions.B]
+        case1 = [CubeActions.L, CubeActions.U]
+        case2 = [CubeActions.B, CubeActions.M, CubeActions.L]
+        case3 = [CubeActions.E, CubeActions.F, CubeActions._D, CubeActions.L]
+        case4 = [CubeActions.U, CubeActions.S2, CubeActions._L, CubeActions._E, CubeActions.B]
         for action in case1:
             startState = action(startState)
         # for i in range(100):
@@ -111,7 +139,7 @@ class RubikCube():
     #     for action in self.PERMUTATIONS:
     #         self.move(action)
 
-    def execute(self,actions):
+    def execute(self, actions):
         for action in actions:
             # print(self.movesLookup[action])
             self.state = self.movesLookup[action](self.state)
@@ -121,13 +149,13 @@ class RubikCube():
         self.moveHistory.append(actions)
         self.fitness()
 
-    def move(self,action):
+    def move(self, action):
         self.state = action(self.state)
 
-    def isTerminal(self,state):
-        return np.array_equal(state,self.initial)
+    def isTerminal(self, state):
+        return np.array_equal(state, self.initial)
 
-    def toString(self,state):
+    def toString(self, state):
         print()
         for i in range(3):
             print("     ", int(state[0][i][0]), int(state[0][i][1]), int(state[0][i][2]))
@@ -140,23 +168,22 @@ class RubikCube():
             print("     ", int(state[1][i][0]), int(state[1][i][1]), int(state[1][i][2]))
         print()
 
-    def nextState(self,action,state):
+    def nextState(self, action, state):
         nextState = cp.deepcopy(state)
         for a in action:
             nextState = a(nextState)
         return nextState
 
-
-    def reward(self,state,action):
+    def reward(self, state, action):
         currentCompletion = np.array(state) - np.array(self.initial)
         currentCompletion = 54 - np.count_nonzero(currentCompletion)
-        nextState = self.nextState(action,state)
+        nextState = self.nextState(action, state)
         if self.isTerminal(nextState):
             reward = 100
         else:
             nextCompletion = np.array(nextState) - np.array(self.initial)
             nextCompletion = 54 - np.count_nonzero(nextCompletion)
-            reward = nextCompletion-currentCompletion
+            reward = nextCompletion - currentCompletion
 
         return reward
 
@@ -172,6 +199,32 @@ class RubikCube():
 
     def get_algorithm_string(self):
         return " ".join(self.get_algorithm())
+
+    def random_single_move(self):
+        r = random.randint(0, len(self.SINGLE_MOVES) - 1)
+        return [self.SINGLE_MOVES[r]]
+
+    def random_permutation(self):
+        r = random.randint(0, len(self.PERMUTATIONS) - 1)
+        return self.PERMUTATIONS[r]
+
+    def random_full_rotation(self):
+        r = random.randint(0, len(self.ROTATIONS) - 1)
+        return [self.ROTATIONS[r]]
+
+    def random_orientation(self):
+        r = random.randint(0, len(self.ROTATIONS_Z) - 1)
+        return [self.ROTATIONS_Z[r]]
+
+    def copy(self, cube_to, cube_from):
+        for f in cube_from.faces:
+            for i in range(0, 3):
+                for j in range(0, 3):
+                    cube_to.faces[f][i, j] = cube_from.faces[f][i, j]
+
+        cube_to.moveHistory = [item for item in cube_from.moveHistory]
+        cube_to.fitness = cube_from.fitness
+
 
 cube = RubikCube()
 # cube.toString(cube.getInitialState())
