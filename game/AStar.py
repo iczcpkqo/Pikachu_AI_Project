@@ -44,6 +44,17 @@ class RubikCube():
                                "B", "B'", "B2",
                                "F", "F'", "F2",
                                "S", "S'", "S2"]
+
+        # self.test_cube = [[[0., 0., 0.], [0., 0., 0.], [0., 0., 0.]],
+        #                   [[1., 1., 1.], [1., 1., 1.], [1., 1., 1.]],
+        #                   [[2., 2., 2.], [2., 2., 2.], [2., 2., 2.]], array([[3., 3., 3.], [3., 3., 3.],
+        #                                                                                               [3., 3., 3.]]),
+        #                   array([[4., 4., 4.],
+        #                          [4., 4., 4.],
+        #                          [4., 4., 4.]]), array([[5., 5., 5.],
+        #                                                 [5., 5., 5.],
+        #                                                 [5., 5., 5.]])]
+
         self.__last_random_actions = []
         self.__move_history = []
         self.__fitness_value = 0
@@ -103,6 +114,9 @@ class RubikCube():
 
     def get_level_actions(self):
         return self.__last_random_actions
+
+    def get_mixed_level(self):
+        return self.__mixed_level
 
     def random_action(self, level):
         actions = []
@@ -170,6 +184,7 @@ class RubikCube():
         par_limit = self.__limit_times*par_step_target
         current_completion = np.array(state) - np.array(self.__target_state)
         current_completion = np.count_nonzero(current_completion)
+        # current_opposite =
         return (current_completion/par_limit)*par_step
 
     # TODO: Closed 是否包含一个 state
@@ -210,16 +225,25 @@ def a_star(cube):
 
                 heuristic_num = cube.heuristic(child_state, len(new_path))
                 fringe.push([child_state, new_cost, new_path], new_cost + heuristic_num)
-                print("cost => ", new_cost,
-                      " | heu => ", heuristic_num,
-                      " | fringe_size => ", fringe.size(),
-                      " | closed => ", len(closed),
-                      " | action => ", new_path,
-                      " | start => ", cube.get_start_actions(),
-                      " | limit_times => ", cube.get_limit_times(),
-                      " | base => ", cube.get_base(),
-                      " | cost_price => ", cube.get_cost_price(),
-                      " | cost_weight => ", cube.get_cost_weight())
+                pr = "cost => " + str(new_cost) \
+                     + " | heu => " + str(heuristic_num) \
+                     + " | fringe_size => " + str(fringe.size()) \
+                     + " | closed => " + str(len(closed)) \
+                     + " | action => " + str(new_path) \
+                     + " | start => " + str(cube.get_start_actions()) \
+                     + " | limit_times => " + str(cube.get_limit_times()) \
+                     + " | base => " + str(cube.get_base()) \
+                     + " | cost_price => " + str(cube.get_cost_price()) \
+                     + " | cost_weight => " + str(cube.get_cost_weight())
+
+                print(pr)
+
+                if False:
+                    tit = "AVG_" + str(cube.get_mixed_level()) + " mix_level = " + str(cube.get_mixed_level())\
+                          + ", limit_times = 0.7, base = 1.041, cost_price = 1.28, cost_weight = 1.0"
+                    with open("results/" + tit + ".txt", "a") as f:
+                        f.write(pr)
+                        f.write("\r\n")
 
 # def pick_helper():
 #
@@ -228,83 +252,84 @@ def main():
     """ Best Rank
         mix_level=6,
         limit_times=0.7,
-        base=1.001,
-        cost_price=0.8,
-        cost_weight=1.6,
+        base=1.041,
+        cost_price=1.28,
+        cost_weight=1.0,
         start_actions=['F2', "B'", 'D2', 'R', "E'", 'B2'])
     """
 
-    arr = []
-    min_finder = util.PriorityQueue()
-    max_finder = util.PriorityQueue()
-
-    # range_cost_price = np.arange(1.001, 1.1, 0.005)
-    range_cost_price = np.arange(1.040, 1.060, 0.001)
-    tit = "base between 1.040 to 1.060, step=0.001"
-    label = "base"
-
-
-    for i in range_cost_price:
-        time_start = time.time()
-
-        cube = RubikCube(mix_level=6, limit_times=0.7, base=i, cost_price=0.8, cost_weight=1.6,
-                         start_actions=['F2', "B'", 'D2', 'R', "E'", 'B2'])
-        a_star(cube)
-
-        time_end = time.time()
-        time_cost = time_end - time_start
-        min_finder.push((i, time_cost), time_cost)
-        max_finder.push((i, time_cost), -time_cost)
-        arr.append((i, time_cost))
-
-        print('time cost', time_cost, 's')
-
-
-    min_time = min(min_finder.pop())
-    max_time = max(max_finder.pop())
-    print("#############")
-    print("min => ", min_time, " | max => ", max_time)
-
-
-    x1 = range_cost_price
-    y1 = [a[1] for a in arr]
-    # x2 = [31, 52, 73, 92, 101, 112, 126, 140, 153, 175, 186, 196, 215, 230, 240, 270, 288, 300]
-    # y2 = [48, 48, 48, 48, 49, 89, 162, 237, 302, 378, 443, 472, 522, 597, 628, 661, 690, 702]
-    # x3 = [30, 50, 70, 90, 105, 114, 128, 137, 147, 159, 170, 180, 190, 200, 210, 230, 243, 259, 284, 297, 311]
-    # y3 = [48, 48, 48, 48, 66, 173, 351, 472, 586, 712, 804, 899, 994, 1094, 1198, 1360, 1458, 1578, 1734, 1797, 1892]
-    x = np.arange(min(x1), max(x1))
-    l1 = plt.plot(x1, y1, 'r--', label=label)
-    # l2 = plt.plot(x2, y2, 'g--', label='type2')
-    # l3 = plt.plot(x3, y3, 'b--', label='type3')
-    # plt.plot(x1, y1, 'ro-', x2, y2, 'g+-', x3, y3, 'b^-')
-    plt.plot(x1, y1, 'ro-')
-    plt.title(tit)
-    plt.xlabel('row')
-    plt.ylabel('column')
-    plt.legend()
-    # plt.pause(0.001)
-    # plt.clf()
-    plt.savefig("results/" + str(tit) + ".png", bbox_inches='tight')
-    plt.show()
-
-
-
-    # plt.ion()  # 开启interactive mode 成功的关键函数
-    # plt.figure("some graph as you see")
+    # cube = RubikCube()
+    # te = [np.zeros((3, 3))]
+    # tt = [np.ones((3, 3))]
     #
-    # # average time of each eat
-    # plt.subplot(2, 2, 1)
-    # plt.title("avg arrive time")
-    # plt.xlabel("eat rate")
-    # plt.ylabel("avg time")
-    # plt.grid(True)
-    # plt.plot(db_box.eats, db_box.avg_steps, '-g', lw=1)
+    # # for i in range(1, 6):
+    # #     self.__target_state.append(np.ones((3, 3)) + self.__target_state[i - 1])
+    # # print(cube.get_target_state())
+    # print(te)
+    # print(tt)
+    #
+    # return
 
-# case1 = [CubeActions.L,CubeActions.U] ## 22
-# case2 = [CubeActions.B,CubeActions.M,CubeActions.L] ## 32
-# case3 = [CubeActions.E,CubeActions.F,CubeActions._D,CubeActions.L] ## 35
-# case4 = [CubeActions.U,CubeActions.S2,CubeActions._L,CubeActions._E,CubeActions.B] ## 40
+    for k in [7]:
+        arr = []
+        min_finder = util.PriorityQueue()
+        max_finder = util.PriorityQueue()
 
+        # range_cost_price = np.arange(1.001, 1.1, 0.005)
+        start = 1
+        end = 10
+        stp = 1
+        lev = k
+        range_cost_price = np.arange(start, end, stp)
+        # tit = "cost_weight between " + str(start) + " to " + str(end) + ", step=" + str(stp)
+        tit = "AVG_" + str(lev) + " mix_level = " + str(lev) + ", limit_times = 0.7, base = 1.041, cost_price = 1.28, cost_weight = 1.0"
+        label1 = "time"
+        label2 = "steps"
+
+
+        for i in range_cost_price:
+            time_start = time.time()
+
+            # cube = RubikCube(mix_level=6, limit_times=0.7, base=1.041, cost_price=1.28, cost_weight=1.0,
+            #                  start_actions=['F2', "B'", 'D2', 'R', "E'", 'B2'])
+
+            cube = RubikCube(mix_level=lev, limit_times=0.7, base=1.041, cost_price=1.28, cost_weight=1.0)
+
+            path = a_star(cube)
+
+            time_end = time.time()
+            time_cost = time_end - time_start
+            min_finder.push((i, time_cost), time_cost)
+            max_finder.push((i, time_cost), -time_cost)
+            arr.append((i, time_cost, len(path)))
+
+            print('time cost', time_cost, 's | steps cost: ', len(path))
+
+
+        min_time = min(min_finder.pop())
+        max_time = max(max_finder.pop())
+        print("#############")
+        print("min => ", min_time, " | max => ", max_time)
+
+        fig = plt.figure()
+        x = range_cost_price
+        y1 = [a[1] for a in arr]
+        y2 = [a[2] for a in arr]
+        plt.xlabel('times')
+
+        ax1 = fig.add_subplot(111)
+        ax1.plot(x, y1, 'r.-')
+        ax1.set_ylabel(label1)
+        ax1.set_title(tit)
+
+        ax2 = ax1.twinx()  # this is the important function
+        ax2.plot(x, y2, 'g.-')
+        ax2.set_ylabel(label2)
+
+        plt.title(tit)
+        plt.legend()
+        plt.savefig("results/" + str(tit) + ".png", bbox_inches='tight')
+        plt.show()
 
 if __name__ == "__main__":
     main()
