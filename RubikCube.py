@@ -103,15 +103,40 @@ class RubikCube():
 
     def getActions(self):
         actions = []
-        for action in self.ROTATIONS:
-            actions.append([self.movesLookup[action]])
-        for action in self.ROTATIONS_Z:
-            actions.append([self.movesLookup[action]])
         for action in self.PERMUTATIONS:
             temp = []
             for a in action:
                 temp.append(self.movesLookup[a])
             actions.append(temp)
+        for i in self.ROTATIONS:
+            for action in self.PERMUTATIONS:
+                temp = []
+                temp.append(self.movesLookup[i])
+                for a in action:
+                    temp.append(self.movesLookup[a])
+            actions.append(temp)
+
+        for i in self.ROTATIONS_Z:
+            for action in self.PERMUTATIONS:
+                temp = []
+                temp.append(self.movesLookup[i])
+                for a in action:
+                    temp.append(self.movesLookup[a])
+            actions.append(temp)
+
+        for i in self.ROTATIONS:
+            for j in self.ROTATIONS_Z:
+                for action in self.PERMUTATIONS:
+                    temp1,temp2 = [],[]
+                    temp1.append(self.movesLookup[i])
+                    temp1.append(self.movesLookup[j])
+                    temp2.append(self.movesLookup[j])
+                    temp2.append(self.movesLookup[i])
+                    for a in action:
+                        temp1.append(self.movesLookup[a])
+                        temp2.append(self.movesLookup[a])
+                actions.append(temp1)
+                actions.append(temp2)
         return actions
 
     def getBasicActions(self):
@@ -227,6 +252,7 @@ class RubikCube():
 
 
 cube = RubikCube()
+print(cube.getActions())
 # cube.toString(cube.getInitialState())
 # cube.toString(cube.getStartState())
 # cube.toString(cube.getCurrentState())
