@@ -28,7 +28,7 @@ class RubikCube():
         for i in range(1, 6):
             self.initial.append(np.ones((3, 3)) + self.initial[i - 1])
 
-        self.startState = self.initial
+        self.startState = self.randomGenerate()
         self.state = cp.deepcopy(self.startState)
 
         self.faces = {
@@ -111,11 +111,20 @@ class RubikCube():
 
     def randomGenerate(self):
         startState = cp.deepcopy(self.initial)
-        case1 = [CubeActions.L, CubeActions.U]
-        case2 = [CubeActions.B, CubeActions.M, CubeActions.L]
-        case3 = [CubeActions.E, CubeActions.F, CubeActions._D, CubeActions.L]
-        case4 = [CubeActions.U, CubeActions.S2, CubeActions._L, CubeActions._E, CubeActions.B]
-        for action in case1:
+        case0 = [CubeActions._U]
+        case1 = [CubeActions.L,CubeActions.U]
+        case2 = [CubeActions.B,CubeActions.M,CubeActions.L]
+        case3 = [CubeActions.E,CubeActions.F,CubeActions._D,CubeActions.L]
+        case4 = [CubeActions.U,CubeActions.S2, CubeActions._L,CubeActions._E,CubeActions.B]
+        case5 = [CubeActions.U, CubeActions.S2, CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.M]
+        case6 = [CubeActions.L, CubeActions._S, CubeActions._B, CubeActions._L, CubeActions.B,CubeActions.M,CubeActions.B,]
+        case7 = [CubeActions.U, CubeActions.S2, CubeActions.M,CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.L,CubeActions.U]
+        case8 = [ CubeActions.S2, CubeActions.M,CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.E,CubeActions.F,CubeActions._D,CubeActions.L]
+        case9 = [CubeActions.U, CubeActions.S2, CubeActions.M,CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.E,CubeActions.F,CubeActions._D,CubeActions.L]
+
+
+     # test cases
+        for action in case9:
             startState = action(startState)
         # for i in range(100):
         #     startState = random.choice(actions)(startState)
@@ -163,6 +172,15 @@ class RubikCube():
                         temp2.append(self.movesLookup[a])
                 actions.append(temp1)
                 actions.append(temp2)
+
+        for i in self.PERMUTATIONS:
+            for j in self.PERMUTATIONS:
+                temp = []
+                for a in i:
+                    temp.append(self.movesLookup[a])
+                for b in j:
+                    temp.append(self.movesLookup[b])
+                actions.append(temp)
         return actions
 
     def getBasicActions(self):
@@ -193,7 +211,7 @@ class RubikCube():
     def execute(self, actions):
         for action in actions:
             # print(self.movesLookup[action])
-            self.state = cp.deepcopy(self.movesLookup[action](self.state))
+            self.state = self.movesLookup[action](self.state)
             # print(self.state)
             # self.toString(self.state)
             # self.move(self.movesLookup[action])
@@ -499,8 +517,8 @@ class RubikCube():
         destination[1] = origin[1]
         destination[2] = origin[2]
 
-# cube = RubikCube()
-# print(cube.getActions())
+cube = RubikCube()
+print(cube.getActions())
 # cube.toString(cube.getInitialState())
 # cube.toString(cube.getStartState())
 # cube.toString(cube.getCurrentState())
