@@ -109,6 +109,15 @@ class RubikCube():
                         temp2.append(self.movesLookup[a])
                 actions.append(temp1)
                 actions.append(temp2)
+
+        for i in self.PERMUTATIONS:
+            for j in self.PERMUTATIONS:
+                temp = []
+                for a in i:
+                    temp.append(self.movesLookup[a])
+                for b in j:
+                    temp.append(self.movesLookup[b])
+                actions.append(temp)
         return actions
 
     def getBasicActions(self):
