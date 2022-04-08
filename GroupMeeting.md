@@ -55,7 +55,7 @@ Wait for the professor's feedback and divation of the work.
 27/2/2022 20:00 Online
 
 ## 4th Meeting:
-### Date:25/02/2022 20:00
+### Date:27/02/2022 20:00
 ### Attendance:
 Bo Peng, Wanyin Jiang, Xiang Mao, Xiangyu Zheng
 ### Time:1 hr
@@ -73,3 +73,18 @@ Working out the Rubik's cube, finding relatede work and learning about the algor
 
 ### Next meeting:
 14/3/2022 20:00 Online
+
+## 5th Meeting:
+### Date:14/03/2022 20:00
+### Attendance:
+Bo Peng, Wanyin Jiang, Xiang Mao, Xiangyu Zheng
+### Time:1 hr
+### Summary:
+Discussing the problems met during the learning and trying to find the solution together.
+Sharing the progress of this project.
+
+### To do:
+Achieving the Rubik's cube code, and starting to develop the algorithms code.
+
+### Next meeting:
+26/3/2022 12:00 SLS lab
