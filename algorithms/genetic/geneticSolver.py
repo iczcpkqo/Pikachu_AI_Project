@@ -16,10 +16,10 @@ def solve(scramble):
         cubes = []
         for i in range(0, population_size):
             cube = RubikCube()
-            cube.execute(scramble)
+            cube.execute2(scramble)
             # randomize it
-            cube.execute(cube.random_single_move())
-            cube.execute(cube.random_single_move())
+            cube.execute2(cube.random_single_move())
+            cube.execute2(cube.random_single_move())
             cubes.append(cube)
 
         # evolve population
@@ -27,15 +27,16 @@ def solve(scramble):
             # sort by fitness
             cubes.sort(key=operator.attrgetter('fitnessValue'))
 
-            print(f"World: {r + 1} - Generation: {g}")
-            print(f"Best solution so far")
-            print(f"{cubes[0].get_algorithm_string()}")
-            print("")
+            if  g % 20 == 0 and g != 0:
+                print(f"World: {r + 1} - Generation: {g}")
+                print(f"Best solution so far")
+                print(f"{cubes[0].get_algorithm_string()}")
+                print("")
 
             # the goal is to minimize the fitness function
             # 0 means that the cube is solved
             for i in range(0, len(cubes)):
-                if cubes[i].fitness == 0:
+                if cubes[i].fitnessValue == 0:
                     print("Solution found")
                     print(f"World: {r + 1} - Generation: {g + 1}")
                     print(f"Scramble: {cubes[i].get_algorithm_string()}")
@@ -53,24 +54,24 @@ def solve(scramble):
                     evolution_type = random.randint(0, 5)
 
                     if evolution_type == 0:
-                        cubes[i].execute(cube.random_permutation())
+                        cubes[i].execute2(cube.random_permutation())
                     elif evolution_type == 1:
-                        cubes[i].execute(cube.random_permutation())
-                        cubes[i].execute(cube.random_permutation())
+                        cubes[i].execute2(cube.random_permutation())
+                        cubes[i].execute2(cube.random_permutation())
                     elif evolution_type == 2:
-                        cubes[i].execute(cube.random_full_rotation())
-                        cubes[i].execute(cube.random_permutation())
+                        cubes[i].execute2(cube.random_full_rotation())
+                        cubes[i].execute2(cube.random_permutation())
                     elif evolution_type == 3:
-                        cubes[i].execute(cube.random_orientation())
-                        cubes[i].execute(cube.random_permutation())
+                        cubes[i].execute2(cube.random_orientation())
+                        cubes[i].execute2(cube.random_permutation())
                     elif evolution_type == 4:
-                        cubes[i].execute(cube.random_full_rotation())
-                        cubes[i].execute(cube.random_orientation())
-                        cubes[i].execute(cube.random_permutation())
+                        cubes[i].execute2(cube.random_full_rotation())
+                        cubes[i].execute2(cube.random_orientation())
+                        cubes[i].execute2(cube.random_permutation())
                     elif evolution_type == 5:
-                        cubes[i].execute(cube.random_orientation())
-                        cubes[i].execute(cube.random_full_rotation())
-                        cubes[i].execute(cube.random_permutation())
+                        cubes[i].execute2(cube.random_orientation())
+                        cubes[i].execute2(cube.random_full_rotation())
+                        cubes[i].execute2(cube.random_permutation())
 
     # if a solution was found we returned
     print("")

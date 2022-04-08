@@ -3,38 +3,38 @@ import copy as cp
 import CubeActions
 import random
 
+GREEN = "G"
+ORANGE = "O"
+RED = "R"
+WHITE = "W"
+YELLOW = "Y"
+BLUE = "B"
+
+FRONT = "Front"
+LEFT = "Left"
+BACK = "Back"
+RIGHT = "Right"
+TOP = "Top"
+BOTTOM = "Bottom"
 
 class RubikCube():
     def __init__(self):
 
-        self.GREEN = "G"
-        self.ORANGE = "O"
-        self.RED = "R"
-        self.WHITE = "W"
-        self.YELLOW = "Y"
-        self.BLUE = "B"
-
-        self.FRONT = "Front"
-        self.LEFT = "Left"
-        self.BACK = "Back"
-        self.RIGHT = "Right"
-        self.TOP = "Top"
-        self.BOTTOM = "Bottom"
         # 创建六个面，放在faces列表里，顺序为上（0），下（1），左（2），右（3），前（4），后（5）
         self.initial = [np.zeros((3, 3))]
         for i in range(1, 6):
             self.initial.append(np.ones((3, 3)) + self.initial[i - 1])
 
-        self.startState = self.randomGenerate()
+        self.startState = self.initial
         self.state = cp.deepcopy(self.startState)
 
         self.faces = {
-            self.FRONT: np.full((3, 3), self.GREEN),
-            self.LEFT: np.full((3, 3), self.ORANGE),
-            self.RIGHT: np.full((3, 3), self.RED),
-            self.TOP: np.full((3, 3), self.WHITE),
-            self.BOTTOM: np.full((3, 3), self.YELLOW),
-            self.BACK: np.full((3, 3), self.BLUE),
+            FRONT: np.full((3, 3), GREEN),
+            LEFT: np.full((3, 3), ORANGE),
+            RIGHT: np.full((3, 3), RED),
+            TOP: np.full((3, 3), WHITE),
+            BOTTOM: np.full((3, 3), YELLOW),
+            BACK: np.full((3, 3), BLUE),
         }
 
         self.SINGLE_MOVES = ["U", "U'", "U2", "D", "D'", "D2",
@@ -174,6 +174,16 @@ class RubikCube():
         self.moveHistory.append(actions)
         self.fitness()
 
+    def execute2(self, actions):
+        for action in actions:
+            # print(self.movesLookup[action])
+            self.state = self.movesLookup[action](self.state)
+            # print(self.state)
+            # self.toString(self.state)
+            # self.move(self.movesLookup[action])
+        self.moveHistory.append(actions)
+        self.fitness2()
+
     def move(self, action):
         self.state = action(self.state)
 
@@ -217,6 +227,13 @@ class RubikCube():
         currentCompletion = 54 - np.count_nonzero(currentCompletion)
         self.fitnessValue = currentCompletion
         return self.fitnessValue
+
+    def fitness2(self):
+        currentCompletion = np.array(self.state) - np.array(self.initial)
+        currentCompletion = np.count_nonzero(currentCompletion)
+        self.fitnessValue = currentCompletion
+        return self.fitnessValue
+
 
     def get_algorithm(self):
         # we don't want to include the scramble

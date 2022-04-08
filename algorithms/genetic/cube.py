@@ -1,5 +1,6 @@
 import numpy as np
 from typing import List
+import copy as cp
 
 GREEN = "G"
 ORANGE = "O"
@@ -22,6 +23,13 @@ COUNTERCLOCKWISE = (0, 1)
 class Cube:
 
     def __init__(self):
+
+        self.initial = [np.zeros((3, 3))]
+        for i in range(1, 6):
+            self.initial.append(np.ones((3, 3)) + self.initial[i - 1])
+
+        self.startState = self.initial
+        self.state = cp.deepcopy(self.startState)
 
         self.faces = {
             FRONT: np.full((3, 3), GREEN),
@@ -81,6 +89,19 @@ class Cube:
         if self.fitness == 0:
             return True
         return False
+
+    def toString(self, state):
+        print()
+        for i in range(3):
+            print("     ", int(state[0][i][0]), int(state[0][i][1]), int(state[0][i][2]))
+        for i in range(3):
+            print(int(state[2][i][0]), int(state[2][i][1]), int(state[2][i][2]), end=" ")
+            print(int(state[4][i][0]), int(state[4][i][1]), int(state[4][i][2]), end=" ")
+            print(int(state[3][i][0]), int(state[3][i][1]), int(state[3][i][2]), end=" ")
+            print(int(state[5][i][0]), int(state[5][i][1]), int(state[5][i][2]))
+        for i in range(3):
+            print("     ", int(state[1][i][0]), int(state[1][i][1]), int(state[1][i][2]))
+        print()
 
     # ------------------------------------------------------------------------------------
     # X Axis movements - D, E and U
