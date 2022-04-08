@@ -1,3 +1,4 @@
+import copy as cp
 import time
 import random
 import operator
@@ -7,6 +8,14 @@ population_size = 500
 max_generations = 300
 max_resets = 10
 elitism_num = 50
+
+
+def copy(cube_to, cube_from):
+
+    cube_to.state = cp.deepcopy(cube_from.state)
+
+    cube_to.moveHistory = [item for item in cube_from.moveHistory]
+    cube_to.fitnessValue = cube_from.fitnessValue
 
 def solve(scramble):
     start_time = time.time()
@@ -50,7 +59,7 @@ def solve(scramble):
                 # elitism: the best performers move to the next generation without changes
                 if i > elitism_num:
                     # copy a random top performer cube
-                    cube.copy(cubes[i], cubes[random.randint(0, elitism_num)])
+                    copy(cubes[i], cubes[random.randint(0, elitism_num)])
                     evolution_type = random.randint(0, 5)
 
                     if evolution_type == 0:
@@ -79,8 +88,9 @@ def solve(scramble):
     print(f"{time.time() - start_time} seconds")
 
 
-scramble_str = "F2"
+# scramble_str = "F2"
 # scramble_str = "D' B2 D2 L2 U' L L2 D U' L' R' L D' B2 R2 B' R F U2 R B2 F' L' B2 L2 D' B2 D2 R' R' F L2 R2 U' L2 B' F2 D2 U L' R F2 L' B2 L2 R2 B F L D' U L R' D' U L' R2 U F' L' U2 B' F L B' F2 D' U B2 R' U B' F U F' R' U2 L' R' D F2 R' F' D2 L' R2 B' D L U2"
+scramble_str = "D' B2 D2 L2 U' L L2 D U' L' R' L D' B2 R2 B' R F"
 scramble = scramble_str.split(" ")
 
 solve(scramble)

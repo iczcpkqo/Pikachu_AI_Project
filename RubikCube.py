@@ -167,7 +167,7 @@ class RubikCube():
     def execute(self, actions):
         for action in actions:
             # print(self.movesLookup[action])
-            self.state = self.movesLookup[action](self.state)
+            self.state = cp.deepcopy(self.movesLookup[action](self.state))
             # print(self.state)
             # self.toString(self.state)
             # self.move(self.movesLookup[action])
@@ -177,7 +177,7 @@ class RubikCube():
     def execute2(self, actions):
         for action in actions:
             # print(self.movesLookup[action])
-            self.state = self.movesLookup[action](self.state)
+            self.state = cp.deepcopy(self.movesLookup[action](self.state))
             # print(self.state)
             # self.toString(self.state)
             # self.move(self.movesLookup[action])
@@ -258,18 +258,9 @@ class RubikCube():
         r = random.randint(0, len(self.ROTATIONS_Z) - 1)
         return [self.ROTATIONS_Z[r]]
 
-    def copy(self, cube_to, cube_from):
-        for f in cube_from.faces:
-            for i in range(0, 3):
-                for j in range(0, 3):
-                    cube_to.faces[f][i, j] = cube_from.faces[f][i, j]
 
-        cube_to.moveHistory = [item for item in cube_from.moveHistory]
-        cube_to.fitness = cube_from.fitness
-
-
-cube = RubikCube()
-print(cube.getActions())
+# cube = RubikCube()
+# print(cube.getActions())
 # cube.toString(cube.getInitialState())
 # cube.toString(cube.getStartState())
 # cube.toString(cube.getCurrentState())
