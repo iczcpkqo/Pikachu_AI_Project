@@ -22,10 +22,10 @@ Deciding the topic and the algorithms, and send an email to the professor to con
 #### Topic:
 A snake game with random grid.
 #### Algorithms:
-A*
-BFS and DFS
-Simulated annealing
-Q learning
+* A*
+* BFS and DFS
+* Simulated annealing
+* Q learning
 
 ### To do:
 Wait for the professor's feedback and divation of the work.
