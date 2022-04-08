@@ -57,11 +57,20 @@ class RubikCube():
 
     def randomGenerate(self):
         startState = cp.deepcopy(self.initial)
+        case0 = [CubeActions._U]
         case1 = [CubeActions.L,CubeActions.U]
         case2 = [CubeActions.B,CubeActions.M,CubeActions.L]
         case3 = [CubeActions.E,CubeActions.F,CubeActions._D,CubeActions.L]
-        case4 = [CubeActions.U,CubeActions.S2,CubeActions._L,CubeActions._E,CubeActions.B]
-        for action in case1:
+        case4 = [CubeActions.U,CubeActions.S2, CubeActions._L,CubeActions._E,CubeActions.B]
+        case5 = [CubeActions.U, CubeActions.S2, CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.M]
+        case6 = [CubeActions.L, CubeActions._S, CubeActions._B, CubeActions._L, CubeActions.B,CubeActions.M,CubeActions.B,]
+        case7 = [CubeActions.U, CubeActions.S2, CubeActions.M,CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.L,CubeActions.U]
+        case8 = [ CubeActions.S2, CubeActions.M,CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.E,CubeActions.F,CubeActions._D,CubeActions.L]
+        case9 = [CubeActions.U, CubeActions.S2, CubeActions.M,CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.E,CubeActions.F,CubeActions._D,CubeActions.L]
+
+
+     # test cases
+        for action in case9:
             startState = action(startState)
         # for i in range(100):
         #     startState = random.choice(actions)(startState)
