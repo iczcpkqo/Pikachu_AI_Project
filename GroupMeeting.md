@@ -4,8 +4,8 @@
 Bo Peng, Wanyin Jiang, Xiang Mao, Xiangyu Zheng
 ### Time:1 hr
 ### Summary:
-Decide a leader and send the group members list to professor to register.
-Go through the assignment requirements and create a github repository.
+* Decide a leader and send the group members list to professor to register.
+* Go through the assignment requirements and create a github repository.
 
 ### To do:
 Trying to find some related material and thinking out a topic for this group project.
@@ -80,8 +80,8 @@ Working out the Rubik's cube, finding relatede work and learning about the algor
 Bo Peng, Wanyin Jiang, Xiang Mao, Xiangyu Zheng
 ### Time:1 hr
 ### Summary:
-Discussing the problems met during the learning and trying to find the solution together.
-Sharing the progress of this project.
+* Discussing the problems met during the learning and trying to find the solution together.
+* Sharing the progress of this project.
 
 ### To do:
 Achieving the Rubik's cube code, and starting to develop the algorithms code.
