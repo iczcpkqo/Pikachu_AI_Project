@@ -53,3 +53,23 @@ Wait for the professor's feedback and divation of the work.
 
 ### Next meeting:
 27/2/2022 20:00 Online
+
+## 4th Meeting:
+### Date:25/02/2022 20:00
+### Attendance:
+Bo Peng, Wanyin Jiang, Xiang Mao, Xiangyu Zheng
+### Time:1 hr
+### Summary:
+Going through the feedback from the professor, and divation of the work.
+#### Divation:
+* The Rubik's cube: Wanyin Jiang & Bo Peng
+* A*: Xiang Mao
+* Genetic Algorithm: Xiangyu Zheng
+* Simulated annealing: Yigao Xie & Bo Peng
+* Q learning: Wanyin Jiang
+
+### To do:
+Working out the Rubik's cube, finding relatede work and learning about the algorithms to use.
+
+### Next meeting:
+14/3/2022 20:00 Online
