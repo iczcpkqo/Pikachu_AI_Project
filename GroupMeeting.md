@@ -43,10 +43,10 @@ Going through the feedback from the professor, deciding a new topic and changing
 #### Topic:
 Using AI algorithms to restore the Rubik's Cube
 #### Algorithms:
-A*
-Genetic Algorithm
-Simulated annealing
-Q learning
+* A*
+* Genetic Algorithm
+* Simulated annealing
+* Q learning
 
 ### To do:
 Wait for the professor's feedback and divation of the work.
