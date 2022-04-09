@@ -7,10 +7,12 @@ from RubikCube import RubikCube
 round = 10
 population = 1000
 generations = 500
+mutation_probability = 0.8
 heritability = 0.05
 genetics = population * heritability
 
 rubik = RubikCube()
+
 
 def createPopulation(scramble):
     cube = RubikCube()
@@ -19,7 +21,8 @@ def createPopulation(scramble):
     cube.execute2(cube.random_single_move())
     return cube
 
-def explore(cubes,i):
+
+def explore(cubes, i):
     new_cube = cubes[random.randint(0, genetics)]
     cubes[i].faces = cp.deepcopy(new_cube.faces)
     cubes[i].moveHistory = cp.deepcopy(new_cube.moveHistory)
@@ -47,6 +50,7 @@ def explore(cubes,i):
             cubes[i].execute2(rubik.random_full_rotation())
             cubes[i].execute2(rubik.random_permutation())
 
+
 def solver(scramble):
     start = time.time()
 
@@ -63,12 +67,14 @@ def solver(scramble):
             for i in range(0, len(cubes)):
                 if cubes[i].fitnessValue == 0:
                     print("find a solution, Scramble: " + str(scramble))
-                    print("Solution:" + cubes[0].get_algorithm_string() + ",steps:" + str(len(cubes[i].get_algorithm())))
+                    print(
+                        "Solution:" + cubes[0].get_algorithm_string() + ",steps:" + str(len(cubes[i].get_algorithm())))
                     print("total time:" + str(time.time() - start) + " seconds")
                     return
 
-                if i > genetics:
-                    explore(cubes,i)
+
+                if i > genetics and random.random() < mutation_probability:
+                    explore(cubes, i)
 
     print("no solution")
 
