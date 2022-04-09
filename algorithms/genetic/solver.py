@@ -4,12 +4,48 @@ import operator
 import copy as cp
 from RubikCube import RubikCube
 
+round = 10
 population = 1000
 generations = 500
-round = 10
 heritability = 0.05
 genetics = population * heritability
 
+rubik = RubikCube()
+
+def createPopulation(scramble):
+    cube = RubikCube()
+    cube.execute2(scramble)
+    cube.execute2(cube.random_single_move())
+    cube.execute2(cube.random_single_move())
+    return cube
+
+def explore(cubes,i):
+    new_cube = cubes[random.randint(0, genetics)]
+    cubes[i].faces = cp.deepcopy(new_cube.faces)
+    cubes[i].moveHistory = cp.deepcopy(new_cube.moveHistory)
+    cubes[i].fitnessValue = cp.deepcopy(new_cube.fitnessValue)
+    movement = random.randint(0, 5)
+
+    match movement:
+        case 0:
+            cubes[i].execute2(rubik.random_permutation())
+        case 1:
+            cubes[i].execute2(rubik.random_permutation())
+            cubes[i].execute2(rubik.random_permutation())
+        case 2:
+            cubes[i].execute2(rubik.random_full_rotation())
+            cubes[i].execute2(rubik.random_permutation())
+        case 3:
+            cubes[i].execute2(rubik.random_orientation())
+            cubes[i].execute2(rubik.random_permutation())
+        case 4:
+            cubes[i].execute2(rubik.random_full_rotation())
+            cubes[i].execute2(rubik.random_orientation())
+            cubes[i].execute2(rubik.random_permutation())
+        case 5:
+            cubes[i].execute2(rubik.random_orientation())
+            cubes[i].execute2(rubik.random_full_rotation())
+            cubes[i].execute2(rubik.random_permutation())
 
 def solver(scramble):
     start = time.time()
@@ -18,11 +54,7 @@ def solver(scramble):
 
         cubes = []
         for i in range(0, population):
-            cube = RubikCube()
-            cube.execute2(scramble)
-            cube.execute2(cube.random_single_move())
-            cube.execute2(cube.random_single_move())
-            cubes.append(cube)
+            cubes.append(createPopulation(scramble))
 
         for g in range(0, generations):
             cubes.sort(key=operator.attrgetter('fitnessValue'))
@@ -30,41 +62,15 @@ def solver(scramble):
 
             for i in range(0, len(cubes)):
                 if cubes[i].fitnessValue == 0:
-                    print("find a solution, Scramble: " + scramble)
-                    print("Solution:" + cubes[0].get_algorithm_string() + "step:"+str(len(cubes[i].get_algorithm())))
-                    print("total time:"+ time.time()-start+"")
+                    print("find a solution, Scramble: " + str(scramble))
+                    print("Solution:" + cubes[0].get_algorithm_string() + ",steps:" + str(len(cubes[i].get_algorithm())))
+                    print("total time:" + str(time.time() - start) + " seconds")
                     return
 
                 if i > genetics:
-                    new_cube = cubes[random.randint(0, genetics)]
-                    cubes[i].faces = cp.deepcopy(new_cube.faces)
-                    cubes[i].moveHistory = cp.deepcopy(new_cube.moveHistory)
-                    cubes[i].fitnessValue = cp.deepcopy(new_cube.fitnessValue)
-                    movement = random.randint(0, 5)
+                    explore(cubes,i)
 
-                    match movement:
-                        case 0:
-                            cubes[i].execute2(cube.random_permutation())
-                        case 1:
-                            cubes[i].execute2(cube.random_permutation())
-                            cubes[i].execute2(cube.random_permutation())
-                        case 2:
-                            cubes[i].execute2(cube.random_full_rotation())
-                            cubes[i].execute2(cube.random_permutation())
-                        case 3:
-                            cubes[i].execute2(cube.random_orientation())
-                            cubes[i].execute2(cube.random_permutation())
-                        case 4:
-                            cubes[i].execute2(cube.random_full_rotation())
-                            cubes[i].execute2(cube.random_orientation())
-                            cubes[i].execute2(cube.random_permutation())
-                        case 5:
-                            cubes[i].execute2(cube.random_orientation())
-                            cubes[i].execute2(cube.random_full_rotation())
-                            cubes[i].execute2(cube.random_permutation())
-    print("")
-    print(f"Solution not found")
-    print(f"{time.time() - start} seconds")
+    print("no solution")
 
 
 scramble_str = "B' R' U2 B' F D2 R2 B F' L2 R' B2 D2 L2 F' U L B2 D F L' F R B2 D' U' B' L' B' F2"

@@ -195,35 +195,15 @@ class RubikCube():
                    ]
         return actions
 
-    # def moveRotations(self):
-    #     for action in self.ROTATIONS:
-    #         self.move(action)
-    #
-    # def moveRotations_z(self):
-    #     for action in self.ROTATIONS_Z:
-    #         self.move(action)
-    #
-    # def movePermutations(self):
-    #     for action in self.PERMUTATIONS:
-    #         self.move(action)
-
     def execute(self, actions):
         for action in actions:
-            # print(self.movesLookup[action])
             self.state = self.movesLookup[action](self.state)
-            # print(self.state)
-            # self.toString(self.state)
-            # self.move(self.movesLookup[action])
         self.moveHistory.append(actions)
         self.fitness()
 
     def execute2(self, actions):
         for action in actions:
-            # print(self.movesLookup[action])
             self.moveMap[action]()
-            # print(self.state)
-            # self.toString(self.state)
-            # self.move(self.movesLookup[action])
         self.moveHistory.append(actions)
         self.fitness2()
 
@@ -286,7 +266,6 @@ class RubikCube():
         self.fitnessValue = misplaced_stickers
 
     def get_algorithm(self):
-        # we don't want to include the scramble
         return [item for sublist in self.moveHistory[1:] for item in sublist]
 
     def get_algorithm_string(self):
