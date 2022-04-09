@@ -23,7 +23,6 @@ COUNTERCLOCKWISE = (0, 1)
 class RubikCube():
     def __init__(self):
 
-        # 创建六个面，放在faces列表里，顺序为上（0），下（1），左（2），右（3），前（4），后（5）
         self.initial = [np.zeros((3, 3))]
         for i in range(1, 6):
             self.initial.append(np.ones((3, 3)) + self.initial[i - 1])
@@ -518,7 +517,7 @@ class RubikCube():
         destination[2] = origin[2]
 
 cube = RubikCube()
-print(cube.getActions())
+# print(cube.getActions())
 # cube.toString(cube.getInitialState())
 # cube.toString(cube.getStartState())
 # cube.toString(cube.getCurrentState())
