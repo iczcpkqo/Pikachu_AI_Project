@@ -69,7 +69,7 @@ Going through the feedback from the professor, and divation of the work.
 * Q learning: Wanyin Jiang
 
 ### To do:
-Working out the Rubik's cube, finding relatede work and learning about the algorithms to use.
+Working out the Rubik's cube, finding related work and learning about the algorithms to use.
 
 ### Next meeting:
 14/3/2022 20:00 Online
@@ -88,3 +88,59 @@ Achieving the Rubik's cube code, and starting to develop the algorithms code.
 
 ### Next meeting:
 26/3/2022 12:00 SLS lab
+
+
+## 6th Meeting:
+### Date:26/03/2022 12:30 SLS Lab
+### Attendance:
+Bo Peng, Wanyin Jiang, Xiang Mao, Xiangyu Zheng
+### Time:2 hr
+### Summary:
+* Discussing the problems met during the learning and trying to find the solution together.
+* Sharing the progress of this project.
+
+### To do:
+Achieving the Rubik's cube code, and starting to develop the algorithms code.
+
+### Next meeting:
+02/04/2022 12:00 SLS lab
+
+## 7th Meeting:
+### Date:02/04/2022 12:30 SLS Lab
+### Attendance:
+Bo Peng, Wanyin Jiang, Xiang Mao, Xiangyu Zheng
+### Time:1 hr
+### Summary:
+* Merge codes together.
+* Divation of the report work.
+
+### Deviation:
+* Bo Peng:Introduction, abstract, Simulated Annealing Algorithm
+* Wanyin Jiang: q-learning algorithm part in report
+* Yigao Xie: Problem Definition, Simulated Annealing Algorithm
+* Xiangyu Zheng: Genetic Algorithm part in report
+* Xiang Mao: A* algorithm part in report
+
+### To do:
+* Finish the report and demonstration video
+* Prepare everthing to submit
+
+### Next meeting:
+06/04/2022 20:00 online
+
+## 8th Meeting:
+### Date:07/04/2022 20:00 online
+### Attendance:
+Bo Peng, Wanyin Jiang, Xiang Mao, Xiangyu Zheng
+### Time:1 hr
+### Summary:
+* Review work have done, and continue working this project.
+
+### To do:
+* Finish the report and demonstration video
+* Prepare everthing to submit
+
+### Next meeting:
+08/04/2022 20:00 online
+
+
