@@ -17,20 +17,6 @@ class SimulatedAnnealing:
         self.maxGeneration = maxGeneration
         self.solutions = []
 
-
-    def make_random_permutation(self):
-        r = random.randint(0, len(rubik.PERMUTATIONS) - 1)
-        return rubik.PERMUTATIONS[r]
-
-    def make_random_full_rotation(self):
-        r = random.randint(0, len(rubik.ROTATIONS) - 1)
-        return [rubik.ROTATIONS[r]]
-
-    def make_random_rotation_z(self):
-        r = random.randint(0, len(rubik.ROTATIONS_Z) - 1)
-        return [rubik.ROTATIONS_Z[r]]
-
-
     def accept(self, candidate):  # Metropolis
         candidateFitness = candidate.fitness()
 
@@ -64,29 +50,29 @@ class SimulatedAnnealing:
             permuteRandom = random.randint(0, 5)
 
             if permuteRandom == 0:
-                candidate.execute(self.make_random_permutation())
+                candidate.execute(rubik.random_permutation())
 
             elif permuteRandom == 1:
-                candidate.execute(self.make_random_permutation())
-                candidate.execute(self.make_random_permutation())
+                candidate.execute(rubik.random_permutation())
+                candidate.execute(rubik.random_permutation())
 
             elif permuteRandom == 2:
-                candidate.execute(self.make_random_full_rotation())
-                candidate.execute(self.make_random_permutation())
+                candidate.execute(rubik.random_full_rotation())
+                candidate.execute(rubik.random_permutation())
 
             elif permuteRandom == 3:
-                candidate.execute(self.make_random_rotation_z())
-                candidate.execute(self.make_random_permutation())
+                candidate.execute(rubik.random_orientation())
+                candidate.execute(rubik.random_permutation())
 
             elif permuteRandom == 4:
-                candidate.execute(self.make_random_full_rotation())
-                candidate.execute(self.make_random_rotation_z())
-                candidate.execute(self.make_random_permutation())
+                candidate.execute(rubik.random_full_rotation())
+                candidate.execute(rubik.random_orientation())
+                candidate.execute(rubik.random_permutation())
 
             elif permuteRandom == 5:
-                candidate.execute(self.make_random_rotation_z())
-                candidate.execute(self.make_random_full_rotation())
-                candidate.execute(self.make_random_permutation())
+                candidate.execute(rubik.random_orientation())
+                candidate.execute(rubik.random_full_rotation())
+                candidate.execute(rubik.random_permutation())
 
             self.accept(candidate)
             self.temperature *= self.alpha
