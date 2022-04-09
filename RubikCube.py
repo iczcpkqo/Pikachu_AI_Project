@@ -4,24 +4,24 @@ import CubeActions
 import FaceActions
 import random
 
-GREEN = "G"
-ORANGE = "O"
-RED = "R"
-WHITE = "W"
-YELLOW = "Y"
-BLUE = "B"
-
-FRONT = "Front"
-LEFT = "Left"
-BACK = "Back"
-RIGHT = "Right"
-TOP = "Top"
-BOTTOM = "Bottom"
+# GREEN = "G"
+# ORANGE = "O"
+# RED = "R"
+# WHITE = "W"
+# YELLOW = "Y"
+# BLUE = "B"
+#
+# FRONT = "Front"
+# LEFT = "Left"
+# BACK = "Back"
+# RIGHT = "Right"
+# TOP = "Top"
+# BOTTOM = "Bottom"
 
 
 class RubikCube():
     def __init__(self):
-
+        # up（0），down（1），left（2），right（3），front（4），back（5）
         self.initial = [np.zeros((3, 3))]
         for i in range(1, 6):
             self.initial.append(np.ones((3, 3)) + self.initial[i - 1])
@@ -29,18 +29,18 @@ class RubikCube():
         self.startState = self.randomGenerate()
         self.state = cp.deepcopy(self.startState)
 
-        self.faces = {
-            FRONT: np.full((3, 3), GREEN),
-            LEFT: np.full((3, 3), ORANGE),
-            RIGHT: np.full((3, 3), RED),
-            TOP: np.full((3, 3), WHITE),
-            BOTTOM: np.full((3, 3), YELLOW),
-            BACK: np.full((3, 3), BLUE),
-        }
+        # self.faces = {
+        #     FRONT: np.full((3, 3), GREEN),
+        #     LEFT: np.full((3, 3), ORANGE),
+        #     RIGHT: np.full((3, 3), RED),
+        #     TOP: np.full((3, 3), WHITE),
+        #     BOTTOM: np.full((3, 3), YELLOW),
+        #     BACK: np.full((3, 3), BLUE),
+        # }
 
         #
-        self.CW = (1, 0)
-        self.CCW = (0, 1)
+        # self.CW = (1, 0)
+        # self.CCW = (0, 1)
 
         self.SINGLE_MOVES = ["U", "U'", "U2", "D", "D'", "D2",
                              "R", "R'", "R2", "L", "L'", "L2",
@@ -66,24 +66,24 @@ class RubikCube():
             "D' R' D R2 U' R B2 L U' L' B2 U R2".split(" ")
         ]
 
-        self.moveMap = {
-            # hortizontal
-            "D": FaceActions.D, "D'": FaceActions.D_prime, "D2": FaceActions.D2,
-            "E": FaceActions.E, "E'": FaceActions.E_prime, "E2": FaceActions.E2,
-            "U": FaceActions.U, "U'": FaceActions.U_prime, "U2": FaceActions.U2,
-            # vertical
-            "L": FaceActions.L, "L'": FaceActions.L_prime, "L2": FaceActions.L2,
-            "R": FaceActions.R, "R'": FaceActions.R_prime, "R2": FaceActions.R2,
-            "M": FaceActions.M, "M'": FaceActions.M_prime, "M2": FaceActions.M2,
-            # z
-            "B": FaceActions.B, "B'": FaceActions.B_prime, "B2": FaceActions.B2,
-            "F": FaceActions.F, "F'": FaceActions.F_prime, "F2": FaceActions.F2,
-            "S": FaceActions.S, "S'": FaceActions.S_prime, "S2": FaceActions.S2,
-            # full rotations
-            "x": FaceActions.x_full, "x'": FaceActions.x_prime_full, "x2": FaceActions.x2_full,
-            "y": FaceActions.y_full, "y'": FaceActions.y_prime_full, "y2": FaceActions.y2_full,
-            "z": FaceActions.z_full, "z'": FaceActions.z_prime_full, "z2": FaceActions.z2_full,
-        }
+        # self.moveMap = {
+        #     # hortizontal
+        #     "D": FaceActions.D, "D'": FaceActions.D_prime, "D2": FaceActions.D2,
+        #     "E": FaceActions.E, "E'": FaceActions.E_prime, "E2": FaceActions.E2,
+        #     "U": FaceActions.U, "U'": FaceActions.U_prime, "U2": FaceActions.U2,
+        #     # vertical
+        #     "L": FaceActions.L, "L'": FaceActions.L_prime, "L2": FaceActions.L2,
+        #     "R": FaceActions.R, "R'": FaceActions.R_prime, "R2": FaceActions.R2,
+        #     "M": FaceActions.M, "M'": FaceActions.M_prime, "M2": FaceActions.M2,
+        #     # z
+        #     "B": FaceActions.B, "B'": FaceActions.B_prime, "B2": FaceActions.B2,
+        #     "F": FaceActions.F, "F'": FaceActions.F_prime, "F2": FaceActions.F2,
+        #     "S": FaceActions.S, "S'": FaceActions.S_prime, "S2": FaceActions.S2,
+        #     # full rotations
+        #     "x": FaceActions.x_full, "x'": FaceActions.x_prime_full, "x2": FaceActions.x2_full,
+        #     "y": FaceActions.y_full, "y'": FaceActions.y_prime_full, "y2": FaceActions.y2_full,
+        #     "z": FaceActions.z_full, "z'": FaceActions.z_prime_full, "z2": FaceActions.z2_full,
+        # }
         self.movesLookup = {
             "D": CubeActions.D, "D'": CubeActions._D, "D2": CubeActions.D2,
             "E": CubeActions.E, "E'": CubeActions._E, "E2": CubeActions.E2,
@@ -125,7 +125,7 @@ class RubikCube():
                  CubeActions.E, CubeActions.F, CubeActions._D, CubeActions.L]
 
         # test cases
-        for action in case9:
+        for action in case2:
             startState = action(startState)
         # for i in range(100):
         #     startState = random.choice(actions)(startState)
@@ -190,11 +190,11 @@ class RubikCube():
         self.moveHistory.append(actions)
         self.fitness()
 
-    def execute2(self, actions):
-        for action in actions:
-            self.faces = self.moveMap[action](self.faces)
-        self.moveHistory.append(actions)
-        self.fitness2()
+    # def execute2(self, actions):
+    #     for action in actions:
+    #         self.faces = self.moveMap[action](self.faces)
+    #     self.moveHistory.append(actions)
+    #     self.fitness2()
 
     def move(self, action):
         self.state = action(self.state)
@@ -217,12 +217,12 @@ class RubikCube():
 
     def getFaces(self):
         result = ''
-        result = result + 'front:'+ '\n' + str(self.faces.get("Front")) + '\n'
-        result = result + 'Left:' + '\n' + str(self.faces.get("Left")) + '\n'
-        result = result + 'Back:' + '\n' + str(self.faces.get("Back")) + '\n'
-        result = result + 'Right:' + '\n' + str(self.faces.get("Right")) + '\n'
-        result = result + 'Top:' + '\n' + str(self.faces.get("Top")) + '\n'
-        result = result + 'Bottom:' + '\n' + str(self.faces.get("Bottom")) + '\n'
+        result = result + 'front:'+ '\n' + str(self.state[4]) + '\n'
+        result = result + 'Left:' + '\n' + str(self.state[2]) + '\n'
+        result = result + 'Back:' + '\n' + str(self.state[5]) + '\n'
+        result = result + 'Right:' + '\n' + str(self.state[3]) + '\n'
+        result = result + 'Top:' + '\n' + str(self.state[0]) + '\n'
+        result = result + 'Bottom:' + '\n' + str(self.state[1]) + '\n'
         return result
 
     def nextState(self, action, state):
@@ -250,19 +250,19 @@ class RubikCube():
         self.fitnessValue = currentCompletion
         return self.fitnessValue
 
-    def fitness2(self):
-        misplaced_stickers = 0
-
-        for k, face in self.faces.items():
-            # centers are fixed in a Rubik cube
-            center = face[1, 1]
-
-            for i in range(0, 3):
-                for j in range(0, 3):
-                    if face[i, j] != center:
-                        misplaced_stickers += 1
-
-        self.fitnessValue = misplaced_stickers
+    # def fitness2(self):
+    #     misplaced_stickers = 0
+    #
+    #     for k, face in self.faces.items():
+    #         # centers are fixed in a Rubik cube
+    #         center = face[1, 1]
+    #
+    #         for i in range(0, 3):
+    #             for j in range(0, 3):
+    #                 if face[i, j] != center:
+    #                     misplaced_stickers += 1
+    #
+    #     self.fitnessValue = misplaced_stickers
 
     def get_algorithm(self):
         return [item for sublist in self.moveHistory[1:] for item in sublist]
