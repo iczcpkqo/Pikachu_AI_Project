@@ -1,6 +1,7 @@
 import numpy as np
 import copy as cp
 import CubeActions
+import FaceActions
 import random
 
 GREEN = "G"
@@ -17,8 +18,6 @@ RIGHT = "Right"
 TOP = "Top"
 BOTTOM = "Bottom"
 
-CLOCKWISE = (1, 0)
-COUNTERCLOCKWISE = (0, 1)
 
 class RubikCube():
     def __init__(self):
@@ -69,21 +68,21 @@ class RubikCube():
 
         self.moveMap = {
             # hortizontal
-            "D": self.D, "D'": self.D_prime, "D2": self.D2,
-            "E": self.E, "E'": self.E_prime, "E2": self.E2,
-            "U": self.U, "U'": self.U_prime, "U2": self.U2,
+            "D": FaceActions.D, "D'": FaceActions.D_prime, "D2": FaceActions.D2,
+            "E": FaceActions.E, "E'": FaceActions.E_prime, "E2": FaceActions.E2,
+            "U": FaceActions.U, "U'": FaceActions.U_prime, "U2": FaceActions.U2,
             # vertical
-            "L": self.L, "L'": self.L_prime, "L2": self.L2,
-            "R": self.R, "R'": self.R_prime, "R2": self.R2,
-            "M": self.M, "M'": self.M_prime, "M2": self.M2,
+            "L": FaceActions.L, "L'": FaceActions.L_prime, "L2": FaceActions.L2,
+            "R": FaceActions.R, "R'": FaceActions.R_prime, "R2": FaceActions.R2,
+            "M": FaceActions.M, "M'": FaceActions.M_prime, "M2": FaceActions.M2,
             # z
-            "B": self.B, "B'": self.B_prime, "B2": self.B2,
-            "F": self.F, "F'": self.F_prime, "F2": self.F2,
-            "S": self.S, "S'": self.S_prime, "S2": self.S2,
+            "B": FaceActions.B, "B'": FaceActions.B_prime, "B2": FaceActions.B2,
+            "F": FaceActions.F, "F'": FaceActions.F_prime, "F2": FaceActions.F2,
+            "S": FaceActions.S, "S'": FaceActions.S_prime, "S2": FaceActions.S2,
             # full rotations
-            "x": self.x_full, "x'": self.x_prime_full, "x2": self.x2_full,
-            "y": self.y_full, "y'": self.y_prime_full, "y2": self.y2_full,
-            "z": self.z_full, "z'": self.z_prime_full, "z2": self.z2_full,
+            "x": FaceActions.x_full, "x'": FaceActions.x_prime_full, "x2": FaceActions.x2_full,
+            "y": FaceActions.y_full, "y'": FaceActions.y_prime_full, "y2": FaceActions.y2_full,
+            "z": FaceActions.z_full, "z'": FaceActions.z_prime_full, "z2": FaceActions.z2_full,
         }
         self.movesLookup = {
             "D": CubeActions.D, "D'": CubeActions._D, "D2": CubeActions.D2,
@@ -111,18 +110,21 @@ class RubikCube():
     def randomGenerate(self):
         startState = cp.deepcopy(self.initial)
         case0 = [CubeActions._U]
-        case1 = [CubeActions.L,CubeActions.U]
-        case2 = [CubeActions.B,CubeActions.M,CubeActions.L]
-        case3 = [CubeActions.E,CubeActions.F,CubeActions._D,CubeActions.L]
-        case4 = [CubeActions.U,CubeActions.S2, CubeActions._L,CubeActions._E,CubeActions.B]
+        case1 = [CubeActions.L, CubeActions.U]
+        case2 = [CubeActions.B, CubeActions.M, CubeActions.L]
+        case3 = [CubeActions.E, CubeActions.F, CubeActions._D, CubeActions.L]
+        case4 = [CubeActions.U, CubeActions.S2, CubeActions._L, CubeActions._E, CubeActions.B]
         case5 = [CubeActions.U, CubeActions.S2, CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.M]
-        case6 = [CubeActions.L, CubeActions._S, CubeActions._B, CubeActions._L, CubeActions.B,CubeActions.M,CubeActions.B,]
-        case7 = [CubeActions.U, CubeActions.S2, CubeActions.M,CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.L,CubeActions.U]
-        case8 = [ CubeActions.S2, CubeActions.M,CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.E,CubeActions.F,CubeActions._D,CubeActions.L]
-        case9 = [CubeActions.U, CubeActions.S2, CubeActions.M,CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.E,CubeActions.F,CubeActions._D,CubeActions.L]
+        case6 = [CubeActions.L, CubeActions._S, CubeActions._B, CubeActions._L, CubeActions.B, CubeActions.M,
+                 CubeActions.B, ]
+        case7 = [CubeActions.U, CubeActions.S2, CubeActions.M, CubeActions._L, CubeActions._E, CubeActions.B,
+                 CubeActions.L, CubeActions.U]
+        case8 = [CubeActions.S2, CubeActions.M, CubeActions._L, CubeActions._E, CubeActions.B, CubeActions.E,
+                 CubeActions.F, CubeActions._D, CubeActions.L]
+        case9 = [CubeActions.U, CubeActions.S2, CubeActions.M, CubeActions._L, CubeActions._E, CubeActions.B,
+                 CubeActions.E, CubeActions.F, CubeActions._D, CubeActions.L]
 
-
-     # test cases
+        # test cases
         for action in case9:
             startState = action(startState)
         # for i in range(100):
@@ -182,19 +184,6 @@ class RubikCube():
                 actions.append(temp)
         return actions
 
-    def getBasicActions(self):
-        actions = [CubeActions.B, CubeActions.D, CubeActions.F,
-                   CubeActions.L, CubeActions.R, CubeActions.U,
-                   CubeActions._B, CubeActions._D, CubeActions._F,
-                   CubeActions._L, CubeActions._R, CubeActions._U,
-                   CubeActions.B2, CubeActions.D2, CubeActions.F2,
-                   CubeActions.L2, CubeActions.R2, CubeActions.U2,
-                   CubeActions.E, CubeActions.S, CubeActions.M,
-                   CubeActions._E, CubeActions._S, CubeActions._M,
-                   CubeActions.E2, CubeActions.S2, CubeActions.M2,
-                   ]
-        return actions
-
     def execute(self, actions):
         for action in actions:
             self.state = self.movesLookup[action](self.state)
@@ -203,7 +192,7 @@ class RubikCube():
 
     def execute2(self, actions):
         for action in actions:
-            self.moveMap[action]()
+            self.faces = self.moveMap[action](self.faces)
         self.moveHistory.append(actions)
         self.fitness2()
 
@@ -225,6 +214,16 @@ class RubikCube():
         for i in range(3):
             print("     ", int(state[1][i][0]), int(state[1][i][1]), int(state[1][i][2]))
         print()
+
+    def getFaces(self):
+        result = ''
+        result = result + 'front:'+ '\n' + str(self.faces.get("Front")) + '\n'
+        result = result + 'Left:' + '\n' + str(self.faces.get("Left")) + '\n'
+        result = result + 'Back:' + '\n' + str(self.faces.get("Back")) + '\n'
+        result = result + 'Right:' + '\n' + str(self.faces.get("Right")) + '\n'
+        result = result + 'Top:' + '\n' + str(self.faces.get("Top")) + '\n'
+        result = result + 'Bottom:' + '\n' + str(self.faces.get("Bottom")) + '\n'
+        return result
 
     def nextState(self, action, state):
         nextState = cp.deepcopy(state)
@@ -287,213 +286,6 @@ class RubikCube():
         r = random.randint(0, len(self.ROTATIONS_Z) - 1)
         return [self.ROTATIONS_Z[r]]
 
-    def D(self):
-        self.faces[BOTTOM] = np.rot90(self.faces[BOTTOM], axes=CLOCKWISE)
-        self.__swap_x((FRONT, 2), (RIGHT, 2), (BACK, 2), (LEFT, 2))
-
-    def D_prime(self):
-        self.faces[BOTTOM] = np.rot90(self.faces[BOTTOM], axes=COUNTERCLOCKWISE)
-        self.__swap_x((FRONT, 2), (LEFT, 2), (BACK, 2), (RIGHT, 2))
-
-    def D2(self):
-        self.D()
-        self.D()
-
-    def E(self):
-        self.__swap_x((FRONT, 1), (RIGHT, 1), (BACK, 1), (LEFT, 1))
-
-    def E_prime(self):
-        self.__swap_x((FRONT, 1), (LEFT, 1), (BACK, 1), (RIGHT, 1))
-
-    def E2(self):
-        self.E()
-        self.E()
-
-    def U(self):
-        self.faces[TOP] = np.rot90(self.faces[TOP], axes=CLOCKWISE)
-        self.__swap_x((FRONT, 0), (LEFT, 0), (BACK, 0), (RIGHT, 0))
-
-    def U_prime(self):
-        self.faces[TOP] = np.rot90(self.faces[TOP], axes=COUNTERCLOCKWISE)
-        self.__swap_x((FRONT, 0), (RIGHT, 0), (BACK, 0), (LEFT, 0))
-
-    def U2(self):
-        self.U()
-        self.U()
-
-    def __swap_x(self, t1, t2, t3, t4):
-        backup = np.array(["", "", ""])
-        self.__copy_stickers(backup, self.faces[t4[0]][t4[1]])
-        self.__copy_stickers(self.faces[t4[0]][t4[1]], self.faces[t3[0]][t3[1]])
-        self.__copy_stickers(self.faces[t3[0]][t3[1]], self.faces[t2[0]][t2[1]])
-        self.__copy_stickers(self.faces[t2[0]][t2[1]], self.faces[t1[0]][t1[1]])
-        self.__copy_stickers(self.faces[t1[0]][t1[1]], backup)
-
-    def L(self):
-        self.faces[LEFT] = np.rot90(self.faces[LEFT], axes=CLOCKWISE)
-        self.__swap_y((BOTTOM, 0, True), (BACK, 2, True), (TOP, 0, False), (FRONT, 0, False))
-
-    def L_prime(self):
-        self.faces[LEFT] = np.rot90(self.faces[LEFT], axes=COUNTERCLOCKWISE)
-        self.__swap_y((BOTTOM, 0, False), (FRONT, 0, False), (TOP, 0, True), (BACK, 2, True))
-
-    def L2(self):
-        self.L()
-        self.L()
-
-    def M(self):
-        self.__swap_y((BOTTOM, 1, True), (BACK, 1, True), (TOP, 1, False), (FRONT, 1, False))
-
-    def M_prime(self):
-        self.__swap_y((BOTTOM, 1, False), (FRONT, 1, False), (TOP, 1, True), (BACK, 1, True))
-
-    def M2(self):
-        self.M()
-        self.M()
-
-    def R(self):
-        self.faces[RIGHT] = np.rot90(self.faces[RIGHT], axes=CLOCKWISE)
-        self.__swap_y((BOTTOM, 2, False), (FRONT, 2, False), (TOP, 2, True), (BACK, 0, True))
-
-    def R_prime(self):
-        self.faces[RIGHT] = np.rot90(self.faces[RIGHT], axes=COUNTERCLOCKWISE)
-        self.__swap_y((BOTTOM, 2, True), (BACK, 0, True), (TOP, 2, False), (FRONT, 2, False))
-
-    def R2(self):
-        self.R()
-        self.R()
-
-    def __swap_y(self, t1, t2, t3, t4):
-        backup = np.array(["", "", ""])
-
-        if t4[2]:
-            self.__copy_stickers(backup, np.flip(self.faces[t4[0]][:, t4[1]]))
-        else:
-            self.__copy_stickers(backup, self.faces[t4[0]][:, t4[1]])
-
-        if t3[2]:
-            self.__copy_stickers(self.faces[t4[0]][:, t4[1]], np.flip(self.faces[t3[0]][:, t3[1]]))
-        else:
-            self.__copy_stickers(self.faces[t4[0]][:, t4[1]], self.faces[t3[0]][:, t3[1]])
-
-        if t2[2]:
-            self.__copy_stickers(self.faces[t3[0]][:, t3[1]], np.flip(self.faces[t2[0]][:, t2[1]]))
-        else:
-            self.__copy_stickers(self.faces[t3[0]][:, t3[1]], self.faces[t2[0]][:, t2[1]])
-
-        if t1[2]:
-            self.__copy_stickers(self.faces[t2[0]][:, t2[1]], np.flip(self.faces[t1[0]][:, t1[1]]))
-        else:
-            self.__copy_stickers(self.faces[t2[0]][:, t2[1]], self.faces[t1[0]][:, t1[1]])
-
-        self.__copy_stickers(self.faces[t1[0]][:, t1[1]], backup)
-
-
-    def B(self):
-        self.faces[BACK] = np.rot90(self.faces[BACK], axes=CLOCKWISE)
-        self.__swap_z((BOTTOM, 2, True), (RIGHT, 2, False), (TOP, 0, True), (LEFT, 0, False))
-
-    def B_prime(self):
-        self.faces[BACK] = np.rot90(self.faces[BACK], axes=COUNTERCLOCKWISE)
-        self.__swap_z((BOTTOM, 2, False), (LEFT, 0, True), (TOP, 0, False), (RIGHT, 2, True))
-
-    def B2(self):
-        self.B()
-        self.B()
-
-    def F(self):
-        self.faces[FRONT] = np.rot90(self.faces[FRONT], axes=CLOCKWISE)
-        self.__swap_z((BOTTOM, 0, False), (LEFT, 2, True), (TOP, 2, False), (RIGHT, 0, True))
-
-    def F_prime(self):
-        self.faces[FRONT] = np.rot90(self.faces[FRONT], axes=COUNTERCLOCKWISE)
-        self.__swap_z((BOTTOM, 0, True), (RIGHT, 0, False), (TOP, 2, True), (LEFT, 2, False))
-
-    def F2(self):
-        self.F()
-        self.F()
-
-    def S(self):
-        self.__swap_z((BOTTOM, 1, False), (LEFT, 1, True), (TOP, 1, False), (RIGHT, 1, True))
-
-    def S_prime(self):
-        self.__swap_z((BOTTOM, 1, True), (RIGHT, 1, False), (TOP, 1, True), (LEFT, 1, False))
-
-    def S2(self):
-        self.S()
-        self.S()
-
-    def __swap_z(self, t1, t2, t3, t4):
-        backup = np.array(["", "", ""])
-
-        if t4[2]:
-            self.__copy_stickers(backup, np.flip(self.faces[t4[0]][:, t4[1]]))
-        else:
-            self.__copy_stickers(backup, self.faces[t4[0]][:, t4[1]])
-
-        if t3[2]:
-            self.__copy_stickers(self.faces[t4[0]][:, t4[1]], np.flip(self.faces[t3[0]][t3[1]]))
-        else:
-            self.__copy_stickers(self.faces[t4[0]][:, t4[1]], self.faces[t3[0]][t3[1]])
-
-        if t2[2]:
-            self.__copy_stickers(self.faces[t3[0]][t3[1]], np.flip(self.faces[t2[0]][:, t2[1]]))
-        else:
-            self.__copy_stickers(self.faces[t3[0]][t3[1]], self.faces[t2[0]][:, t2[1]])
-
-        if t1[2]:
-            self.__copy_stickers(self.faces[t2[0]][:, t2[1]], np.flip(self.faces[t1[0]][t1[1]]))
-        else:
-            self.__copy_stickers(self.faces[t2[0]][:, t2[1]], self.faces[t1[0]][t1[1]])
-
-        self.__copy_stickers(self.faces[t1[0]][t1[1]], backup)
-
-    def x_full(self):
-        self.L_prime()
-        self.M_prime()
-        self.R()
-
-    def x_prime_full(self):
-        self.L()
-        self.M()
-        self.R_prime()
-
-    def x2_full(self):
-        self.x_full()
-        self.x_full()
-
-    def y_full(self):
-        self.U()
-        self.E_prime()
-        self.D_prime()
-
-    def y_prime_full(self):
-        self.U_prime()
-        self.E()
-        self.D()
-
-    def y2_full(self):
-        self.y_full()
-        self.y_full()
-
-    def z_full(self):
-        self.F()
-        self.S()
-        self.B_prime()
-
-    def z_prime_full(self):
-        self.F_prime()
-        self.S_prime()
-        self.B()
-
-    def z2_full(self):
-        self.z_full()
-        self.z_full()
-
-    def __copy_stickers(self, destination, origin):
-        destination[0] = origin[0]
-        destination[1] = origin[1]
-        destination[2] = origin[2]
 
 cube = RubikCube()
 # print(cube.getActions())

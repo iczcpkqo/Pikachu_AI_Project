@@ -13,6 +13,19 @@ genetics = population * heritability
 
 rubik = RubikCube()
 
+# scramble_str = "L U"
+# scramble_str = "D' B2 D2 L2 U' L L2 D U' L' R' L D' B2 R2 B' R F U2 R B2 F' L' B2 L2 D' B2 D2 R' R' F L2 R2 U' L2 B' F2 D2 U L' R F2 L' B2 L2 R2 B F L D' U L R' D' U L' R2 U F' L' U2 B' F L B' F2 D' U B2 R' U B' F U F' R' U2 L' R' D F2 R' F' D2 L' R2 B' D L U2"
+scramble_str = "B' R' U2 B' F D2 R2 B F' L2 R' B2 D2 L2 F' U L B2 D F L' F R B2 D' U' B' L' B' F2"
+# scramble_str = "B' R' U2 B'"
+scramble = scramble_str.split(" ")
+f = open('genetic_output' + str(len(scramble)) + 'scramble.txt', 'w')
+f.write("round=" + str(round) + '\n')
+f.write("population=" + str(population) + '\n')
+f.write("generations=" + str(generations) + '\n')
+f.write("mutation_probability=" + str(mutation_probability) + '\n')
+f.write("heritability=" + str(heritability) + '\n')
+f.write("genetics=" + str(genetics) + '\n')
+
 
 def createPopulation(scramble):
     cube = RubikCube()
@@ -27,7 +40,7 @@ def explore(cubes, i):
     cubes[i].faces = cp.deepcopy(new_cube.faces)
     cubes[i].moveHistory = cp.deepcopy(new_cube.moveHistory)
     cubes[i].fitnessValue = cp.deepcopy(new_cube.fitnessValue)
-    movement = random.randint(0, 5)
+    movement = random.randint(0, 6)
 
     match movement:
         case 0:
@@ -49,6 +62,8 @@ def explore(cubes, i):
             cubes[i].execute2(rubik.random_orientation())
             cubes[i].execute2(rubik.random_full_rotation())
             cubes[i].execute2(rubik.random_permutation())
+        case 6:
+            cubes[i].execute2(rubik.random_single_move())
 
 
 def solver(scramble):
@@ -62,25 +77,28 @@ def solver(scramble):
 
         for g in range(0, generations):
             cubes.sort(key=operator.attrgetter('fitnessValue'))
+            f.write(cubes[0].getFaces() + '\n')
+            print(cubes[0].getFaces())
+            f.write("round:" + str(r) + ", generation:" + str(g) + '\n')
             print("round:" + str(r) + ", generation:" + str(g))
 
             for i in range(0, len(cubes)):
                 if cubes[i].fitnessValue == 0:
+                    f.write("find a solution, Scramble: " + str(scramble) + '\n')
                     print("find a solution, Scramble: " + str(scramble))
+                    f.write("Solution:" + cubes[0].get_algorithm_string() + ",steps:" + str(
+                        len(cubes[i].get_algorithm())) + '\n')
                     print(
                         "Solution:" + cubes[0].get_algorithm_string() + ",steps:" + str(len(cubes[i].get_algorithm())))
+                    f.write("total time:" + str(time.time() - start) + " seconds" + '\n')
                     print("total time:" + str(time.time() - start) + " seconds")
                     return
-
 
                 if i > genetics and random.random() < mutation_probability:
                     explore(cubes, i)
 
+    f.write("no solution" + '\n')
     print("no solution")
 
 
-scramble_str = "B' R' U2 B' F D2 R2 B F' L2 R' B2 D2 L2 F' U L B2 D F L' F R B2 D' U' B' L' B' F2"
-# scramble_str = "L U"
-# scramble_str = "D' B2 D2 L2 U' L L2 D U' L' R' L D' B2 R2 B' R F U2 R B2 F' L' B2 L2 D' B2 D2 R' R' F L2 R2 U' L2 B' F2 D2 U L' R F2 L' B2 L2 R2 B F L D' U L R' D' U L' R2 U F' L' U2 B' F L B' F2 D' U B2 R' U B' F U F' R' U2 L' R' D F2 R' F' D2 L' R2 B' D L U2"
-scramble = scramble_str.split(" ")
 solver(scramble)
