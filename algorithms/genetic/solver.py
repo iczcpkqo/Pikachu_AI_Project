@@ -64,7 +64,7 @@ def solver(scramble):
                             cubes[i].execute2(cube.random_permutation())
     print("")
     print(f"Solution not found")
-    print(f"{time.time() - start_time} seconds")
+    print(f"{time.time() - start} seconds")
 
 
 scramble_str = "B' R' U2 B' F D2 R2 B F' L2 R' B2 D2 L2 F' U L B2 D F L' F R B2 D' U' B' L' B' F2"
