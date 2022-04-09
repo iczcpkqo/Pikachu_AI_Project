@@ -5,12 +5,10 @@ t = np.array([[0, 0, 1],
               [0, 1, 0],
               [1, 0, 0]])
 
-# 该面顺时针旋转 90 度
 def clockwise(face):
     face = face.transpose().dot(t)
     return face
 
-# 该面逆时针旋转 90 度
 def antiClockwise(face):
     face = face.dot(t).transpose()
     return face
@@ -93,7 +91,7 @@ def L2(FACES):
     return FACES
 
 
-# 上（0），下（1），左（2），右（3），前（4），后（5）
+# up（0），down（1），left（2），right（3），front（4），back（5）
 def R(FACES):
     FACES[3] = clockwise(FACES[3])
     FACES_new = cp.deepcopy(FACES)
@@ -144,7 +142,7 @@ def F2(FACES):
     return FACES
 
 
-# 上（0），下（1），左（2），右（3），前（4），后（5）
+# up（0），down（1），left（2），right（3），front（4），back（5）
 def B(FACES):
     FACES[5] = clockwise(FACES[5])
     FACES_new = cp.deepcopy(FACES)
