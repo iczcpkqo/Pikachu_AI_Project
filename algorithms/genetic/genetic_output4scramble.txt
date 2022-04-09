@@ -1,0 +1,25 @@
+round=10
+population=1000
+generations=500
+mutation_probability=0.8
+heritability=0.05
+genetics=50.0
+round:0, generation:0
+round:0, generation:1
+round:0, generation:2
+round:0, generation:3
+round:0, generation:4
+round:0, generation:5
+round:0, generation:6
+round:0, generation:7
+round:0, generation:8
+round:0, generation:9
+round:0, generation:10
+round:0, generation:11
+round:0, generation:12
+round:0, generation:13
+round:0, generation:14
+round:0, generation:15
+find a solution, Scramble: ["B'", "R'", 'U2', "B'"]
+Solution:U2 B F' L' B' R' U' R U' B L F R U R' U R' U L' U2 R U' L R' U L' U2 R U' L U' M2 U M2 U2 M2 U M2 M2 U M2 U2 M2 U M2 z' R' U L' U2 R U' L R' U L' U2 R U' L U' D L D' L2 U L' B2 R' U R B2 U' L2 U2 B U2 B' R2 F R' F' U2 F' U2 F R' x' F R B L U L' U B' R' F' L' U' L U' F' U B U' F U B' U' x2 z2 M2 U M2 U2 M2 U M2 R' U2 R L' B2 L z x2 U' B2 D2 L' F2 D2 B2 R' U' z' D' R' D R2 U' R B2 L U' L' B2 U R2 U2 B U2 B' R2 F R' F' U2 F' U2 F R' U2 B U2 B' R2 F R' F' U2 F' U2 F R',steps:176
+total time:3.8959548473358154 seconds

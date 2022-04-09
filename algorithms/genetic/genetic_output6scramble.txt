@@ -1,0 +1,54 @@
+round=10
+population=1000
+generations=500
+mutation_probability=0.8
+heritability=0.05
+genetics=50.0
+round:0, generation:0
+round:0, generation:1
+round:0, generation:2
+round:0, generation:3
+round:0, generation:4
+round:0, generation:5
+round:0, generation:6
+round:0, generation:7
+round:0, generation:8
+round:0, generation:9
+round:0, generation:10
+round:0, generation:11
+round:0, generation:12
+round:0, generation:13
+round:0, generation:14
+round:0, generation:15
+round:0, generation:16
+round:0, generation:17
+round:0, generation:18
+round:0, generation:19
+round:0, generation:20
+round:0, generation:21
+round:0, generation:22
+round:0, generation:23
+round:0, generation:24
+round:0, generation:25
+round:0, generation:26
+round:0, generation:27
+round:0, generation:28
+round:0, generation:29
+round:0, generation:30
+round:0, generation:31
+round:0, generation:32
+round:0, generation:33
+round:0, generation:34
+round:0, generation:35
+round:0, generation:36
+round:0, generation:37
+round:0, generation:38
+round:0, generation:39
+round:0, generation:40
+round:0, generation:41
+round:0, generation:42
+round:0, generation:43
+round:0, generation:44
+find a solution, Scramble: ["B'", "R'", 'U2', "B'", 'F', 'D2']
+Solution:B2 F' x' z U B2 D2 R F2 D2 B2 L U z x F U' B' U F' U' B U y M2 U M2 U2 M2 U M2 z D L D' L2 U L' B2 R' U R B2 U' L2 z2 y' F' U B U' F U B' U' z2 U2 R U2 R' F2 L F' L' U2 L' U2 L F' R' U L' U2 R U' L R' U L' U2 R U' L U' L' U2 L R' F2 R y2 R' U L' U2 R U' L R' U L' U2 R U' L U' z' x' U2 B U2 B' R2 F R' F' U2 F' U2 F R' z' x F' L' B' R' U' R U' B L F R U R' U U B2 D2 R F2 D2 B2 L U D' R' D R2 U' R B2 L U' L' B2 U R2 D' R' D R2 U' R B2 L U' L' B2 U R2 y F R B L U L' U B' R' F' L' U' L U' x' z2 R' U2 R L' B2 L x' M2 U M2 U2 M2 U M2 D' R' D R2 U' R B2 L U' L' B2 U R2 D L D' L2 U L' B2 R' U R B2 U' L2,steps:229
+total time:11.658107042312622 seconds

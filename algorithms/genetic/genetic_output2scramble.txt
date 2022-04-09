@@ -1,0 +1,10 @@
+round=10
+population=1000
+generations=500
+mutation_probability=0.8
+heritability=0.05
+genetics=50.0
+round:0, generation:0
+find a solution, Scramble: ["B'", "R'"]
+Solution:R B,steps:2
+total time:0.31543397903442383 seconds
