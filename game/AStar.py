@@ -14,6 +14,7 @@ class RubikCube():
                "limit_times":0.6,
                "cost_price": 1,
                "cost_weight": 1,
+               "opposite_weight": 1,
                "start_actions": False,
                **arg}
         self.__moves_lookup = {
@@ -45,15 +46,49 @@ class RubikCube():
                                "F", "F'", "F2",
                                "S", "S'", "S2"]
 
-        # self.test_cube = [[[0., 0., 0.], [0., 0., 0.], [0., 0., 0.]],
+        self.__opposite_state= []
+        for i in range(1, 7, 2):
+            self.__opposite_state.append(np.full((3,3), i))
+            self.__opposite_state.append(np.full((3,3), i-1))
+
+
+        # DONE: * 底部十字
+        self.__target_cross_state = []
+        for i in range(0, 6):
+            self.__target_cross_state.append(np.full((3,3), 9))
+        self.__target_cross_state[1] = np.array([[9, 1, 9],
+                                               [1, 1, 1],
+                                               [9, 1, 9]])
+
+        # DONE: * 底部FACE
+        self.__target_bottom_state = []
+        for i in range(0, 6):
+            self.__target_bottom_state.append(np.full((3,3), 9))
+        self.__target_bottom_state[1] = np.ones((3,3))
+
+        # DONE: * 第一层
+        self.__target_one_floor_state = cp.deepcopy(self.__target_bottom_state)
+        for i in range(2, 6):
+            self.__target_one_floor_state[i][2] = [i, i, i]
+
+        # DONE: * 中间层
+        self.__target_middle_floor_state = cp.deepcopy(self.__target_one_floor_state)
+        for i in range(2, 6):
+            self.__target_middle_floor_state[i][1] = [i, i, i]
+
+        # TODO: 顶层侧面
+        # TODO: 顶层十字
+        # TODO: 顶层FACE
+        # TODO: * 全部
+
+        # self.test_cube = [
         #                   [[1., 1., 1.], [1., 1., 1.], [1., 1., 1.]],
-        #                   [[2., 2., 2.], [2., 2., 2.], [2., 2., 2.]], array([[3., 3., 3.], [3., 3., 3.],
-        #                                                                                               [3., 3., 3.]]),
-        #                   array([[4., 4., 4.],
-        #                          [4., 4., 4.],
-        #                          [4., 4., 4.]]), array([[5., 5., 5.],
-        #                                                 [5., 5., 5.],
-        #                                                 [5., 5., 5.]])]
+        #                   [[0., 0., 0.], [0., 0., 0.], [0., 0., 0.]],
+        #                   [[3., 3., 3.], [3., 3., 3.], [3., 3., 3.]],
+        #                   [[2., 2., 2.], [2., 2., 2.], [2., 2., 2.]],
+        #                   [[5., 5., 5.], [5., 5., 5.], [5., 5., 5.]],
+        #                   [[4., 4., 4.], [4., 4., 4.], [4., 4., 4.]]
+        #                   ]
 
         self.__last_random_actions = []
         self.__move_history = []
@@ -72,6 +107,7 @@ class RubikCube():
         self.__limit_times = self.arg["limit_times"]
         self.__cost_price = self.arg["cost_price"]
         self.__cost_weight = self.arg["cost_weight"]
+        self.__opposite_wight = self.arg["opposite_weight"]
 
         self.__start_state = self.move(self.__start_actions, self.__target_state)
         self.__current_state = cp.deepcopy(self.__start_state)
@@ -81,6 +117,9 @@ class RubikCube():
         self.restore_heuristic = 0
         self.restore_fringe_size = 0
         self.restore_closed_size = 0
+
+        ##  test level
+        self.set_target_full()
 
     def set_mixed_level(self, level):
         self.__mixed_level = level
@@ -103,8 +142,31 @@ class RubikCube():
     def get_start_actions(self):
         return self.__start_actions
 
+    def set_start_state(self, state):
+        self.__start_state = state
+
     def get_start_state(self):
         return self.__start_state
+
+    def set_target_cross(self):
+        self.set_target_state(self.__target_cross_state, 5)
+
+    def set_target_bottom(self):
+        self.set_target_state(self.__target_one_floor_state, 9)
+
+    def set_target_one_floor(self):
+        self.set_target_state(self.__target_one_floor_state, 21)
+
+    def set_target_middle(self):
+        self.set_target_state(self.__target_middle_floor_state, 33)
+
+    def set_target_full(self):
+        self.set_target_state(self.__target_state, 54)
+
+    def set_target_state(self, state, mark):
+        self.__target_state = state
+        self.__full_mark = mark
+        self.__base_wrong = 54 - mark
 
     def get_target_state(self):
         return self.__target_state
@@ -117,6 +179,9 @@ class RubikCube():
 
     def get_mixed_level(self):
         return self.__mixed_level
+
+    def get_opposite_state(self):
+        return self.__opposite_state
 
     def random_action(self, level):
         actions = []
@@ -148,7 +213,13 @@ class RubikCube():
         print()
 
     def is_terminal(self,state):
-        return np.array_equal(state,self.__target_state)
+        # return np.array_equal(state,self.__target_state)
+        # return 0 == self.get_score(state)
+        return 0 == int(self.get_score(state))
+        # if 5 == self.get_score(state):
+        #     return True
+        # else:
+        #     return False
 
     def execute(self,actions):
         for a in actions:
@@ -171,10 +242,18 @@ class RubikCube():
             states.append([self.__moves_lookup[action](state_operator), action, cost_weight*cost])
         return states
 
-    # DONE: Get Fn of the State from target state
+    # count of wrong
+    def compare_state(self, a_state, b_state):
+        count = np.count_nonzero(np.array(a_state) - np.array(b_state))
+        return count
+
+    def get_opposite_num(self, state):
+        return 54 - np.count_nonzero(np.array(state) - np.array(self.get_opposite_state()))
+
+    # DONE: Get Fn of the State from target state, Number of false
     def get_score(self, state):
-        current_completion = np.array(state) - np.array(self.__target_state)
-        current_completion = 54 - np.count_nonzero(current_completion)
+        current_completion = (self.compare_state(state, self.__target_state) - self.__base_wrong)*(54/self.__full_mark)
+        # current_completion = self.compare_state(state, self.__target_cross_state)
         return current_completion
 
     # TODO: 启发函数
@@ -182,10 +261,17 @@ class RubikCube():
         par_step_target = self.__mixed_level
         par_step = np.power(self.__base,steps)
         par_limit = self.__limit_times*par_step_target
-        current_completion = np.array(state) - np.array(self.__target_state)
-        current_completion = np.count_nonzero(current_completion)
-        # current_opposite =
-        return (current_completion/par_limit)*par_step
+        # current_completion = np.count_nonzero(np.array(state) - np.array(self.__target_state))
+        current_completion = self.get_score(state)
+        count_opposite = self.get_opposite_num(state)
+        # after_sum = current_completion + count_opposite*2
+        # after_sum = current_completion
+        after_sum = (current_completion - count_opposite) + count_opposite*self.__opposite_wight
+        # print("-----")
+        # print(after_sum)
+        return (after_sum/par_limit)*par_step
+
+    # todo: 修改权重
 
     # TODO: Closed 是否包含一个 state
     def is_not_in(self, state, closed):
@@ -236,9 +322,18 @@ def a_star(cube):
                      + " | cost_price => " + str(cube.get_cost_price()) \
                      + " | cost_weight => " + str(cube.get_cost_weight())
 
-                print(pr)
+                # print(pr)
 
-                if False:
+                # print("###########")
+
+                # print(str(cube.get_score(state)) + " | " + str(cube.compare_state(state ,cube.get_target_state())))
+
+                # print(cube.is_terminal(state))
+                # print(cube.get_target_state())
+                # print(cube.get_start_state())
+                # print(state)
+
+                if True:
                     tit = "AVG_" + str(cube.get_mixed_level()) + " mix_level = " + str(cube.get_mixed_level())\
                           + ", limit_times = 0.7, base = 1.041, cost_price = 1.28, cost_weight = 1.0"
                     with open("results/" + tit + ".txt", "a") as f:
@@ -259,18 +354,12 @@ def main():
     """
 
     # cube = RubikCube()
-    # te = [np.zeros((3, 3))]
-    # tt = [np.ones((3, 3))]
-    #
-    # # for i in range(1, 6):
-    # #     self.__target_state.append(np.ones((3, 3)) + self.__target_state[i - 1])
-    # # print(cube.get_target_state())
-    # print(te)
-    # print(tt)
-    #
+    # print(cube.gettt())
     # return
 
-    for k in [7]:
+    # return
+
+    for k in [1, 2, 3, 4, 5, 6, 7, 8]:
         arr = []
         min_finder = util.PriorityQueue()
         max_finder = util.PriorityQueue()
@@ -285,7 +374,6 @@ def main():
         tit = "AVG_" + str(lev) + " mix_level = " + str(lev) + ", limit_times = 0.7, base = 1.041, cost_price = 1.28, cost_weight = 1.0"
         label1 = "time"
         label2 = "steps"
-
 
         for i in range_cost_price:
             time_start = time.time()
@@ -315,21 +403,25 @@ def main():
         x = range_cost_price
         y1 = [a[1] for a in arr]
         y2 = [a[2] for a in arr]
-        plt.xlabel('times')
+        plt.xlabel('')
+        plt.xticks([])
+        plt.yticks([])
 
-        ax1 = fig.add_subplot(111)
+        ax1 = fig.add_subplot()
         ax1.plot(x, y1, 'r.-')
         ax1.set_ylabel(label1)
         ax1.set_title(tit)
 
-        ax2 = ax1.twinx()  # this is the important function
+        ax2 = ax1.twinx()
         ax2.plot(x, y2, 'g.-')
         ax2.set_ylabel(label2)
 
         plt.title(tit)
         plt.legend()
         plt.savefig("results/" + str(tit) + ".png", bbox_inches='tight')
-        plt.show()
+
+        if False:
+            plt.show()
 
 if __name__ == "__main__":
     main()
