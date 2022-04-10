@@ -153,7 +153,11 @@ class RubikCube():
         self.state = action(self.state)
 
     def isTerminal(self, state):
-        return np.array_equal(state, self.initial)
+        if self.correctNum(state) == 54:
+            return True
+        else:
+            return False
+        # return np.array_equal(state, self.initial)
 
     def toString(self, state):
         print()
