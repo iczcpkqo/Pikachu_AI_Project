@@ -27,7 +27,7 @@ class RubikCube():
             self.initial.append(np.ones((3, 3)) + self.initial[i - 1])
 
         self.startState = self.randomGenerate()
-        self.state = cp.deepcopy(self.startState)
+        self.state = cp.deepcopy(self.initial)
 
         self.faces = {
             FRONT: np.full((3, 3), GREEN),
@@ -221,6 +221,19 @@ class RubikCube():
             print("     ", int(state[1][i][0]), int(state[1][i][1]), int(state[1][i][2]))
         print()
 
+    def toStringi(self):
+        print()
+        for i in range(3):
+            print("     ", int(self.initial[0][i][0]), int(self.initial[0][i][1]), int(self.initial[0][i][2]))
+        for i in range(3):
+            print(int(self.initial[2][i][0]), int(self.initial[2][i][1]), int(self.initial[2][i][2]), end=" ")
+            print(int(self.initial[4][i][0]), int(self.initial[4][i][1]), int(self.initial[4][i][2]), end=" ")
+            print(int(self.initial[3][i][0]), int(self.initial[3][i][1]), int(self.initial[3][i][2]), end=" ")
+            print(int(self.initial[5][i][0]), int(self.initial[5][i][1]), int(self.initial[5][i][2]))
+        for i in range(3):
+            print("     ", int(self.initial[1][i][0]), int(self.initial[1][i][1]), int(self.initial[1][i][2]))
+        print()
+
     def getFaces(self):
         result = ''
         result = result + 'Front:' + '\n' + str(self.faces.get('Front')) + '\n'
@@ -250,11 +263,21 @@ class RubikCube():
 
         return reward
 
+    # def fitness(self):
+    #     currentCompletion = np.array(self.state) - np.array(self.initial)
+    #     currentCompletion = 54 - np.count_nonzero(currentCompletion)
+    #     self.fitnessValue = currentCompletion
+    #     return self.fitnessValue
+
     def fitness(self):
-        currentCompletion = np.array(self.state) - np.array(self.initial)
-        currentCompletion = 54 - np.count_nonzero(currentCompletion)
-        self.fitnessValue = currentCompletion
-        return self.fitnessValue
+        misplaced_stickers = 0
+        for face in self.state:
+            center = face[1, 1]
+            for i in range(0, 3):
+                for j in range(0, 3):
+                    if face[i, j] != center:
+                        misplaced_stickers += 1
+        self.fitnessValue = misplaced_stickers
 
     def fitness2(self):
         misplaced_stickers = 0

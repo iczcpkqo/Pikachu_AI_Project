@@ -34,41 +34,39 @@ def printParameters(scramble):
 
 def createPopulation(scramble):
     cube = RubikCube()
-    cube.execute2(scramble)
-    cube.execute2(cube.random_single_move())
-    cube.execute2(cube.random_single_move())
+    cube.execute(scramble)
+    cube.execute(cube.random_single_move())
+    cube.execute(cube.random_single_move())
     return cube
 
 
 def explore(cubes, i):
     new_cube = cubes[random.randint(0, genetics)]
-    cubes[i].faces = cp.deepcopy(new_cube.faces)
+    cubes[i].state = cp.deepcopy(new_cube.state)
     cubes[i].moveHistory = cp.deepcopy(new_cube.moveHistory)
     cubes[i].fitnessValue = cp.deepcopy(new_cube.fitnessValue)
-    movement = random.randint(0, 6)
+    movement = random.randint(0, 5)
 
     match movement:
         case 0:
-            cubes[i].execute2(rubik.random_permutation())
+            cubes[i].execute(rubik.random_permutation())
         case 1:
-            cubes[i].execute2(rubik.random_permutation())
-            cubes[i].execute2(rubik.random_permutation())
+            cubes[i].execute(rubik.random_permutation())
+            cubes[i].execute(rubik.random_permutation())
         case 2:
-            cubes[i].execute2(rubik.random_full_rotation())
-            cubes[i].execute2(rubik.random_permutation())
+            cubes[i].execute(rubik.random_full_rotation())
+            cubes[i].execute(rubik.random_permutation())
         case 3:
-            cubes[i].execute2(rubik.random_orientation())
-            cubes[i].execute2(rubik.random_permutation())
+            cubes[i].execute(rubik.random_orientation())
+            cubes[i].execute(rubik.random_permutation())
         case 4:
-            cubes[i].execute2(rubik.random_full_rotation())
-            cubes[i].execute2(rubik.random_orientation())
-            cubes[i].execute2(rubik.random_permutation())
+            cubes[i].execute(rubik.random_full_rotation())
+            cubes[i].execute(rubik.random_orientation())
+            cubes[i].execute(rubik.random_permutation())
         case 5:
-            cubes[i].execute2(rubik.random_orientation())
-            cubes[i].execute2(rubik.random_full_rotation())
-            cubes[i].execute2(rubik.random_permutation())
-        case 6:
-            cubes[i].execute2(rubik.random_single_move())
+            cubes[i].execute(rubik.random_orientation())
+            cubes[i].execute(rubik.random_full_rotation())
+            cubes[i].execute(rubik.random_permutation())
 
 
 def solver(scramble, f):
@@ -79,13 +77,18 @@ def solver(scramble, f):
         cubes.append(createPopulation(scramble))
 
     for g in range(0, generations):
-        cubes.sort(key=operator.attrgetter('fitnessValue'))
-        f.write(cubes[0].getFaces() + '\n')
-        print(cubes[0].getFaces())
-        f.write("generation:" + str(g) + '\n')
-        print("generation:" + str(g))
+        cubes.sort(key=operator.attrgetter('fitnessValue'),reverse=False)
+        # f.write(cubes[0].getFaces() + '\n')
+        # print(cubes[0].getFaces())
+        # cubes[0].toString() + '\n'
+        cubes[0].toStringi()
+        cubes[0].toString(cubes[0].state)
+        print(cubes[0].fitnessValue)
+        # f.write("generation:" + str(g) + '\n')
+        # print("generation:" + str(g))
 
         for i in range(0, len(cubes)):
+
             if cubes[i].fitnessValue == 0:
                 f.write("find a solution, Scramble: " + str(scramble) + '\n')
                 print("find a solution, Scramble: " + str(scramble))
@@ -105,53 +108,56 @@ def solver(scramble, f):
     return False, time.time() - start, 0
 
 
-running_times = 10
-interval = 10
-max_time = 100
-
-ii = []
-rr = []
-tt = []
-ss = []
-
-i = 10
-while i < max_time:
-    scramble = rubik.randomScrambler(i)
-    f = printParameters(scramble)
-    successes = 0.0
-    total_time = 0.0
-    total_steps = 0.0
-    for j in range(running_times):
-        solved, ctime, steps = solver(scramble, f)
-        if solved:
-            successes = successes + 1
-            total_time = total_time + ctime
-            total_steps = total_steps + steps
-
-    ii.append(i)
-    rr.append(successes / running_times)
-    tt.append(total_time / successes)
-    ss.append(total_steps / successes)
-
-    i = i + interval
-
-plt.figure(figsize=(7, 7))
-plt.plot(ii, rr, color='b', label='Restoration success rate per scramble')
-plt.xlabel('Number of scramble')
-plt.ylabel('Success rate')
-plt.legend()
-plt.show()
-
-plt.figure(figsize=(7, 7))
-plt.plot(ii, ss, color='b', label='The number of steps required for each scramble to restore')
-plt.xlabel('Number of scramble')
-plt.ylabel('Average finding solution steps')
-plt.legend()
-plt.show()
-
-plt.figure(figsize=(7, 7))
-plt.plot(ii, tt, color='b', label='The total of time required for each scramble to restore')
-plt.xlabel('Number of scramble')
-plt.ylabel('Average finding solution time')
-plt.legend()
-plt.show()
+scramble = rubik.randomScrambler(9)
+f = printParameters(scramble)
+solver(scramble, f)
+# running_times = 10
+# interval = 10
+# max_time = 100
+#
+# ii = []
+# rr = []
+# tt = []
+# ss = []
+#
+# i = 10
+# while i < max_time:
+#     scramble = rubik.randomScrambler(i)
+#     f = printParameters(scramble)
+#     successes = 0.0
+#     total_time = 0.0
+#     total_steps = 0.0
+#     for j in range(running_times):
+#         solved, ctime, steps = solver(scramble, f)
+#         if solved:
+#             successes = successes + 1
+#             total_time = total_time + ctime
+#             total_steps = total_steps + steps
+#
+#     ii.append(i)
+#     rr.append(successes / running_times)
+#     tt.append(total_time / successes)
+#     ss.append(total_steps / successes)
+#
+#     i = i + interval
+#
+# plt.figure(figsize=(7, 7))
+# plt.plot(ii, rr, color='b', label='Restoration success rate per scramble')
+# plt.xlabel('Number of scramble')
+# plt.ylabel('Success rate')
+# plt.legend()
+# plt.show()
+#
+# plt.figure(figsize=(7, 7))
+# plt.plot(ii, ss, color='b', label='The number of steps required for each scramble to restore')
+# plt.xlabel('Number of scramble')
+# plt.ylabel('Average finding solution steps')
+# plt.legend()
+# plt.show()
+#
+# plt.figure(figsize=(7, 7))
+# plt.plot(ii, tt, color='b', label='The total of time required for each scramble to restore')
+# plt.xlabel('Number of scramble')
+# plt.ylabel('Average finding solution time')
+# plt.legend()
+# plt.show()
