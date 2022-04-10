@@ -81,7 +81,6 @@ def solver(scramble, f):
         # f.write(cubes[0].getFaces() + '\n')
         # print(cubes[0].getFaces())
         # cubes[0].toString() + '\n'
-        cubes[0].toStringi()
         cubes[0].toString(cubes[0].state)
         print(cubes[0].fitnessValue)
         # f.write("generation:" + str(g) + '\n')
@@ -108,56 +107,56 @@ def solver(scramble, f):
     return False, time.time() - start, 0
 
 
-scramble = rubik.randomScrambler(9)
-f = printParameters(scramble)
-solver(scramble, f)
-# running_times = 10
-# interval = 10
-# max_time = 100
-#
-# ii = []
-# rr = []
-# tt = []
-# ss = []
-#
-# i = 10
-# while i < max_time:
-#     scramble = rubik.randomScrambler(i)
-#     f = printParameters(scramble)
-#     successes = 0.0
-#     total_time = 0.0
-#     total_steps = 0.0
-#     for j in range(running_times):
-#         solved, ctime, steps = solver(scramble, f)
-#         if solved:
-#             successes = successes + 1
-#             total_time = total_time + ctime
-#             total_steps = total_steps + steps
-#
-#     ii.append(i)
-#     rr.append(successes / running_times)
-#     tt.append(total_time / successes)
-#     ss.append(total_steps / successes)
-#
-#     i = i + interval
-#
-# plt.figure(figsize=(7, 7))
-# plt.plot(ii, rr, color='b', label='Restoration success rate per scramble')
-# plt.xlabel('Number of scramble')
-# plt.ylabel('Success rate')
-# plt.legend()
-# plt.show()
-#
-# plt.figure(figsize=(7, 7))
-# plt.plot(ii, ss, color='b', label='The number of steps required for each scramble to restore')
-# plt.xlabel('Number of scramble')
-# plt.ylabel('Average finding solution steps')
-# plt.legend()
-# plt.show()
-#
-# plt.figure(figsize=(7, 7))
-# plt.plot(ii, tt, color='b', label='The total of time required for each scramble to restore')
-# plt.xlabel('Number of scramble')
-# plt.ylabel('Average finding solution time')
-# plt.legend()
-# plt.show()
+# scramble = rubik.randomScrambler(9)
+# f = printParameters(scramble)
+# solver(scramble, f)
+running_times = 10
+interval = 10
+max_time = 100
+
+ii = []
+rr = []
+tt = []
+ss = []
+
+i = 10
+while i < max_time:
+    scramble = rubik.randomScrambler(i)
+    f = printParameters(scramble)
+    successes = 0.0
+    total_time = 0.0
+    total_steps = 0.0
+    for j in range(running_times):
+        solved, ctime, steps = solver(scramble, f)
+        if solved:
+            successes = successes + 1
+            total_time = total_time + ctime
+            total_steps = total_steps + steps
+
+    ii.append(i)
+    rr.append(successes / running_times)
+    tt.append(total_time / successes)
+    ss.append(total_steps / successes)
+
+    i = i + interval
+
+plt.figure(figsize=(7, 7))
+plt.plot(ii, rr, color='b', label='Restoration success rate per scramble')
+plt.xlabel('Number of scramble')
+plt.ylabel('Success rate')
+plt.legend()
+plt.show()
+
+plt.figure(figsize=(7, 7))
+plt.plot(ii, ss, color='b', label='The number of steps required for each scramble to restore')
+plt.xlabel('Number of scramble')
+plt.ylabel('Average finding solution steps')
+plt.legend()
+plt.show()
+
+plt.figure(figsize=(7, 7))
+plt.plot(ii, tt, color='b', label='The total of time required for each scramble to restore')
+plt.xlabel('Number of scramble')
+plt.ylabel('Average finding solution time')
+plt.legend()
+plt.show()

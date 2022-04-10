@@ -4,6 +4,6 @@ generations=2000
 mutation_probability=0.8
 heritability=0.05
 genetics=50.0
-find a solution, Scramble: ["B'", 'S2', 'D2', 'U2', "R'", "F'", 'S', 'B2', 'M']
-Solution:F' R R' U L' U2 R U' L R' U L' U2 R U' L U' L' U2 L R' F2 R L U' R U2 L' U R' L U' R U2 L' U R' U x U2 B U2 B' R2 F R' F' U2 F' U2 F R' M2 U M2 U2 M2 U M2 D L D' L2 U L' B2 R' U R B2 U' L2 y U B2 D2 R F2 D2 B2 L U F' L' B' R' U' R U' B L F R U R' U z y' U2 B U2 B' R2 F R' F' U2 F' U2 F R' y L U' R U2 L' U R' L U' R U2 L' U R' U F U' B' U F' U' B U U2 B U2 B' R2 F R' F' U2 F' U2 F R' R' U L' U2 R U' L R' U L' U2 R U' L U' M2 U M2 U2 M2 U M2 x2 U B2 D2 R F2 D2 B2 L U F' L' B' R' U' R U' B L F R U R' U F R B L U L' U B' R' F' L' U' L U' F' L' B' R' U' R U' B L F R U R' U z2 x F' L' B' R' U' R U' B L F R U R' U z F' L' B' R' U' R U' B L F R U R' U D' R' D R2 U' R B2 L U' L' B2 U R2 D' R' D R2 U' R B2 L U' L' B2 U R2 z' x2 U B2 D2 R F2 D2 B2 L U F R B L U L' U B' R' F' L' U' L U' z y F' L' B' R' U' R U' B L F R U R' U,steps:320
-total time:8.969189167022705 seconds
+find a solution, Scramble: ["z'", "z'", 'B', 'E2', "D'", 'L', 'L', 'S', "x'"]
+Solution:D F2 z x2 R' U L' U2 R U' L R' U L' U2 R U' L U' R' U2 R L' B2 L F' U B U' F U B' U' x' L' U2 L R' F2 R z2 x' U' B2 D2 L' F2 D2 B2 R' U' U2 R U2 R' F2 L F' L' U2 L' U2 L F' x' z F' U B U' F U B' U' x' z U2 R U2 R' F2 L F' L' U2 L' U2 L F' F R B L U L' U B' R' F' L' U' L U' U B2 D2 R F2 D2 B2 L U F R B L U L' U B' R' F' L' U' L U' z x L' U2 L R' F2 R y2 z' U B2 D2 R F2 D2 B2 L U F R B L U L' U B' R' F' L' U' L U' z F' L' B' R' U' R U' B L F R U R' U,steps:174
+total time:7.6911890506744385 seconds

@@ -39,7 +39,6 @@ class RubikCube():
             "U B2 D2 R F2 D2 B2 L U".split(" "),
             "D' R' D R2 U' R B2 L U' L' B2 U R2".split(" ")
         ]
-
         self.movesLookup = {
             "D": CubeActions.D, "D'": CubeActions._D, "D2": CubeActions.D2,
             "E": CubeActions.E, "E'": CubeActions._E, "E2": CubeActions.E2,
@@ -86,6 +85,13 @@ class RubikCube():
         # for i in range(100):
         #     startState = random.choice(actions)(startState)
         return startState
+
+    def randomScrambler(self, times):
+        scramble_str = ''
+        for i in range(times):
+            scramble_str = scramble_str + list(cube.movesLookup.keys())[random.randint(0, len(self.movesLookup) - 1)] + " "
+        scramble_str = scramble_str[:-1]
+        return scramble_str.split(" ")
 
     def getStartState(self):
         return self.startState
