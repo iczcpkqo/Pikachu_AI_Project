@@ -77,7 +77,7 @@ def solver(scramble, f):
         cubes.append(createPopulation(scramble))
 
     for g in range(0, generations):
-        cubes.sort(key=operator.attrgetter('fitnessValue'),reverse=True)
+        cubes.sort(key=operator.attrgetter('fitnessValue'),reverse=False)
         # f.write(cubes[0].getFaces() + '\n')
         # print(cubes[0].getFaces())
         # cubes[0].toString() + '\n'
@@ -88,7 +88,7 @@ def solver(scramble, f):
 
         for i in range(0, len(cubes)):
 
-            if cubes[i].fitnessValue == 54:
+            if cubes[i].fitnessValue == 0:
                 f.write("find a solution, Scramble: " + str(scramble) + '\n')
                 print("find a solution, Scramble: " + str(scramble))
                 f.write("Solution:" + cubes[0].get_algorithm_string() + ",steps:" + str(

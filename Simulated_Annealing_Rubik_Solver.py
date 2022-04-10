@@ -88,7 +88,7 @@ class SimulatedAnnealing:
 
             if(self.currentSolution.fitness() == 0):
                 print("Solution found. The output is dumped to SA_solution.txt file")
-
+                self.currentSolution.toString(self.currentSolution.state)
                 outputFile = open("SA_solution.txt", "w")
                 outputFile.write("Rubik_Test:")
                 outputFile.write(self.currentSolution.get_algorithm_string())

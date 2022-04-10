@@ -77,7 +77,7 @@ class RubikCube():
                  CubeActions.E, CubeActions.F, CubeActions._D, CubeActions.L]
 
         # test cases
-        for action in case2:
+        for action in case9:
             startState = action(startState)
         # for i in range(100):
         #     startState = random.choice(actions)(startState)
@@ -202,14 +202,14 @@ class RubikCube():
     #     return self.fitnessValue
 
     def fitness(self):
-        right_stickers = 0
+        miss_stickers = 0
         for face in self.state:
             center = face[1, 1]
             for i in range(0, 3):
                 for j in range(0, 3):
-                    if face[i, j] == center:
-                        right_stickers += 1
-        self.fitnessValue = right_stickers
+                    if face[i, j] != center:
+                        miss_stickers += 1
+        self.fitnessValue = miss_stickers
         return self.fitnessValue
 
     def get_algorithm(self):
