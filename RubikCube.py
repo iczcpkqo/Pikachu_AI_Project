@@ -13,9 +13,6 @@ class RubikCube():
         self.startState = self.randomGenerate()
         self.state = cp.deepcopy(self.initial)
 
-        self.CW = (1, 0)
-        self.CCW = (0, 1)
-
         self.SINGLE_MOVES = ["U", "U'", "U2", "D", "D'", "D2",
                              "R", "R'", "R2", "L", "L'", "L2",
                              "F", "F'", "F2", "B", "B'", "B2"]
@@ -177,15 +174,23 @@ class RubikCube():
             nextState = a(nextState)
         return nextState
 
+    def correctNum(self, state):
+        right_stickers = 0
+        for face in state:
+            center = face[1, 1]
+            for i in range(0, 3):
+                for j in range(0, 3):
+                    if face[i, j] == center:
+                        right_stickers += 1
+        return right_stickers
+
     def reward(self, state, action):
-        currentCompletion = np.array(state) - np.array(self.initial)
-        currentCompletion = 54 - np.count_nonzero(currentCompletion)
+        currentCompletion = self.correctNum(state)
         nextState = self.nextState(action, state)
         if self.isTerminal(nextState):
             reward = 100
         else:
-            nextCompletion = np.array(nextState) - np.array(self.initial)
-            nextCompletion = 54 - np.count_nonzero(nextCompletion)
+            nextCompletion = self.correctNum(nextState)
             reward = nextCompletion - currentCompletion
 
         return reward
