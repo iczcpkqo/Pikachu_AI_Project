@@ -197,14 +197,14 @@ class RubikCube():
     #     return self.fitnessValue
 
     def fitness(self):
-        misplaced_stickers = 0
+        right_stickers = 0
         for face in self.state:
             center = face[1, 1]
             for i in range(0, 3):
                 for j in range(0, 3):
-                    if face[i, j] != center:
-                        misplaced_stickers += 1
-        self.fitnessValue = misplaced_stickers
+                    if face[i, j] == center:
+                        right_stickers += 1
+        self.fitnessValue = right_stickers
 
 
     def get_algorithm(self):
