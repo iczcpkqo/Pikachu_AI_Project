@@ -1,0 +1,946 @@
+round=<built-in function round>
+population=1000
+generations=2000
+mutation_probability=0.8
+heritability=0.05
+genetics=50.0
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:0
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:1
+Front:
+[['W' 'W' 'G']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Back:
+[['G' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['W' 'O' 'Y']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['G' 'G' 'O']
+ ['G' 'G' 'G']
+ ['G' 'G' 'O']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:2
+Front:
+[['W' 'W' 'G']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Back:
+[['G' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['W' 'O' 'Y']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['G' 'G' 'O']
+ ['G' 'G' 'G']
+ ['G' 'G' 'O']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:3
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:4
+find a solution, Scramble: ['S2', 'B', 'S', 'y', "B'", 'z2', 'R2', "x'"]
+Solution:R2 U z' M2 U M2 U2 M2 U M2 U R' U L' U2 R U' L R' U L' U2 R U' L U' y2 L U' R U2 L' U R' L U' R U2 L' U R' U,steps:42
+total time:1.0590431690216064 seconds
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:0
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:1
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'Y' 'R']]
+Left:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'B']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:2
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:3
+find a solution, Scramble: ['S2', 'B', 'S', 'y', "B'", 'z2', 'R2', "x'"]
+Solution:R2 U y2 z U' B2 D2 L' F2 D2 B2 R' U' U B2 D2 R F2 D2 B2 L U U',steps:23
+total time:0.8680832386016846 seconds
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:0
+Front:
+[['O' 'O' 'R']
+ ['G' 'O' 'O']
+ ['Y' 'O' 'O']]
+Left:
+[['O' 'W' 'B']
+ ['W' 'W' 'W']
+ ['W' 'W' 'G']]
+Back:
+[['R' 'R' 'W']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['W' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['O' 'G' 'G']
+ ['W' 'G' 'G']]
+Bottom:
+[['O' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:1
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:2
+find a solution, Scramble: ['S2', 'B', 'S', 'y', "B'", 'z2', 'R2', "x'"]
+Solution:R2 U R2 R,steps:4
+total time:0.6820003986358643 seconds
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:0
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:1
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:2
+find a solution, Scramble: ['S2', 'B', 'S', 'y', "B'", 'z2', 'R2', "x'"]
+Solution:R2 U R',steps:3
+total time:0.6710000038146973 seconds
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:0
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:1
+Front:
+[['Y' 'W' 'W']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['W' 'Y' 'Y']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:2
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:3
+find a solution, Scramble: ['S2', 'B', 'S', 'y', "B'", 'z2', 'R2', "x'"]
+Solution:R2 U R',steps:3
+total time:0.8539998531341553 seconds
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:0
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:1
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:2
+find a solution, Scramble: ['S2', 'B', 'S', 'y', "B'", 'z2', 'R2', "x'"]
+Solution:R2 U R',steps:3
+total time:0.6769998073577881 seconds
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:0
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:1
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:2
+find a solution, Scramble: ['S2', 'B', 'S', 'y', "B'", 'z2', 'R2', "x'"]
+Solution:R2 U R',steps:3
+total time:0.6730000972747803 seconds
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:0
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:1
+find a solution, Scramble: ['S2', 'B', 'S', 'y', "B'", 'z2', 'R2', "x'"]
+Solution:R2 U R',steps:3
+total time:0.5270004272460938 seconds
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:0
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:1
+Front:
+[['Y' 'G' 'Y']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['Y' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:2
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:3
+find a solution, Scramble: ['S2', 'B', 'S', 'y', "B'", 'z2', 'R2', "x'"]
+Solution:R2 U R',steps:3
+total time:0.862999439239502 seconds
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:0
+Front:
+[['O' 'O' 'Y']
+ ['O' 'O' 'Y']
+ ['O' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['W' 'R' 'R']
+ ['W' 'R' 'R']
+ ['W' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'O']
+ ['W' 'W' 'O']
+ ['W' 'W' 'O']]
+Bottom:
+[['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']
+ ['Y' 'Y' 'R']]
+
+generation:1
+Front:
+[['R' 'R' 'G']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['G' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['R' 'W' 'O']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'W']
+ ['G' 'G' 'G']
+ ['G' 'G' 'W']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:2
+Front:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:3
+find a solution, Scramble: ['S2', 'B', 'S', 'y', "B'", 'z2', 'R2', "x'"]
+Solution:R2 U z x U2 R U2 R' F2 L F' L' U2 L' U2 L F' U2 R U2 R' F2 L F' L' U2 L' U2 L F' U2 R U2 R' F2 L F' L' U2 L' U2 L F' F',steps:44
+total time:0.8470439910888672 seconds

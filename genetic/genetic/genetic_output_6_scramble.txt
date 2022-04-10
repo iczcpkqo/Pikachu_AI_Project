@@ -1,0 +1,12230 @@
+round=<built-in function round>
+population=1000
+generations=2000
+mutation_probability=0.8
+heritability=0.05
+genetics=50.0
+Front:
+[['G' 'W' 'B']
+ ['B' 'W' 'W']
+ ['W' 'Y' 'W']]
+Left:
+[['R' 'R' 'R']
+ ['O' 'R' 'O']
+ ['O' 'R' 'R']]
+Back:
+[['G' 'Y' 'B']
+ ['Y' 'Y' 'G']
+ ['Y' 'W' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['Y' 'G' 'W']
+ ['B' 'G' 'G']
+ ['Y' 'B' 'W']]
+Bottom:
+[['B' 'B' 'G']
+ ['Y' 'B' 'W']
+ ['G' 'G' 'B']]
+
+generation:0
+Front:
+[['W' 'W' 'W']
+ ['G' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'O']
+ ['R' 'R' 'R']
+ ['R' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:1
+Front:
+[['B' 'G' 'G']
+ ['Y' 'G' 'B']
+ ['G' 'G' 'G']]
+Left:
+[['O' 'R' 'R']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Back:
+[['G' 'B' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+Right:
+[['R' 'R' 'O']
+ ['O' 'R' 'O']
+ ['R' 'R' 'R']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+
+generation:2
+Front:
+[['R' 'R' 'R']
+ ['O' 'R' 'G']
+ ['R' 'R' 'R']]
+Left:
+[['G' 'G' 'G']
+ ['Y' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['O' 'B' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Right:
+[['B' 'B' 'B']
+ ['R' 'B' 'W']
+ ['B' 'B' 'B']]
+Top:
+[['W' 'O' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:3
+Front:
+[['R' 'R' 'R']
+ ['O' 'R' 'G']
+ ['R' 'R' 'R']]
+Left:
+[['G' 'G' 'G']
+ ['Y' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['O' 'B' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Right:
+[['B' 'B' 'B']
+ ['R' 'B' 'W']
+ ['B' 'B' 'B']]
+Top:
+[['W' 'O' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:4
+Front:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'G' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'O']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+
+generation:5
+Front:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'R' 'G']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Back:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Right:
+[['W' 'O' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'B']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'G' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:6
+Front:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'R' 'G']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Back:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Right:
+[['W' 'O' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'B']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'G' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:7
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['B' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:8
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['B' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:9
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+
+generation:10
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+
+generation:11
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+
+generation:12
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+
+generation:13
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+
+generation:14
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+
+generation:15
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+
+generation:16
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+
+generation:17
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+
+generation:18
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+
+generation:19
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+
+generation:20
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:21
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:22
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:23
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:24
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:25
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:26
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:27
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:28
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:29
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:30
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:31
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:32
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:33
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:34
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:35
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:36
+find a solution, Scramble: ['D2', "R'", "M'", 'S2', "U'", 'x2']
+Solution:D R2 L' z' x U' B2 D2 L' F2 D2 B2 R' U' U2 z2 x2 F' L' B' R' U' R U' B L F R U R' U U' B2 D2 L' F2 D2 B2 R' U' U B2 D2 R F2 D2 B2 L U y2 z L' U2 L R' F2 R F' L' B' R' U' R U' B L F R U R' U U B2 D2 R F2 D2 B2 L U U' B2 D2 L' F2 D2 B2 R' U' y z' F' L' B' R' U' R U' B L F R U R' U x' z' U B2 D2 R F2 D2 B2 L U z y2 R' U2 R L' B2 L R' U2 R L' B2 L L' U2 L R' F2 R z2 x M2 U M2 U2 M2 U M2 D L D' L2 U L' B2 R' U R B2 U' L2 D' R' D R2 U' R B2 L U' L' B2 U R2,steps:171
+total time:6.97545599937439 seconds
+Front:
+[['W' 'W' 'Y']
+ ['G' 'W' 'Y']
+ ['W' 'W' 'Y']]
+Left:
+[['R' 'O' 'O']
+ ['R' 'R' 'R']
+ ['R' 'O' 'O']]
+Back:
+[['W' 'Y' 'Y']
+ ['W' 'Y' 'B']
+ ['W' 'Y' 'Y']]
+Right:
+[['O' 'O' 'R']
+ ['O' 'O' 'R']
+ ['O' 'R' 'R']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'W']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'B' 'Y']
+ ['B' 'B' 'B']]
+
+generation:0
+Front:
+[['W' 'W' 'W']
+ ['G' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'O']
+ ['R' 'R' 'R']
+ ['R' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:1
+Front:
+[['W' 'W' 'Y']
+ ['W' 'W' 'B']
+ ['W' 'W' 'Y']]
+Left:
+[['O' 'O' 'R']
+ ['R' 'R' 'R']
+ ['O' 'O' 'R']]
+Back:
+[['Y' 'Y' 'W']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'W']]
+Right:
+[['R' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:2
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:3
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['G' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'G' 'B']]
+Bottom:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'B' 'G']]
+
+generation:4
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['G' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'G' 'B']]
+Bottom:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'B' 'G']]
+
+generation:5
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Left:
+[['W' 'W' 'W']
+ ['B' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Right:
+[['Y' 'Y' 'Y']
+ ['G' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Bottom:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:6
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:7
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:8
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:9
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:10
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:11
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:12
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:13
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:14
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:15
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'R' 'O']]
+
+generation:16
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'R' 'O']]
+
+generation:17
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'R' 'O']]
+
+generation:18
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'R' 'O']]
+
+generation:19
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'R' 'O']]
+
+generation:20
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'R' 'O']]
+
+generation:21
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'R' 'O']]
+
+generation:22
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'R' 'O']]
+
+generation:23
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'R' 'O']]
+
+generation:24
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'R' 'O']]
+
+generation:25
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'R' 'O']]
+
+generation:26
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'R' 'O']]
+
+generation:27
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:28
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:29
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:30
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:31
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:32
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:33
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:34
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:35
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:36
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:37
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:38
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:39
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:40
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:41
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:42
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:43
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:44
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:45
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:46
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:47
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:48
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:49
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:50
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:51
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:52
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:53
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:54
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:55
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:56
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:57
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:58
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:59
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:60
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:61
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:62
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:63
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:64
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:65
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:66
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:67
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:68
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:69
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:70
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:71
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:72
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:73
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:74
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:75
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:76
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:77
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:78
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:79
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:80
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:81
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:82
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:83
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:84
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:85
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:86
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:87
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:88
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:89
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:90
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:91
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:92
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:93
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:94
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:95
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:96
+Front:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:97
+find a solution, Scramble: ['D2', "R'", "M'", 'S2', "U'", 'x2']
+Solution:D L' R2 y z2 L' U2 L R' F2 R L' U2 L R' F2 R R2 z' x2 U' B2 D2 L' F2 D2 B2 R' U' U B2 D2 R F2 D2 B2 L U z x2 L' U2 L R' F2 R y z' M2 U M2 U2 M2 U M2 M2 U M2 U2 M2 U M2 D' R' D R2 U' R B2 L U' L' B2 U R2 D L D' L2 U L' B2 R' U R B2 U' L2 z' y R' U2 R L' B2 L F R B L U L' U B' R' F' L' U' L U' F R B L U L' U B' R' F' L' U' L U' U' B2 D2 L' F2 D2 B2 R' U' U B2 D2 R F2 D2 B2 L U R' U L' U2 R U' L R' U L' U2 R U' L U' R' U L' U2 R U' L R' U L' U2 R U' L U' x2 R' U2 R L' B2 L z' x' F R B L U L' U B' R' F' L' U' L U' F R B L U L' U B' R' F' L' U' L U' D' R' D R2 U' R B2 L U' L' B2 U R2 D L D' L2 U L' B2 R' U R B2 U' L2 x' z L' U2 L R' F2 R x M2 U M2 U2 M2 U M2 F' L' B' R' U' R U' B L F R U R' U F' L' B' R' U' R U' B L F R U R' U D' R' D R2 U' R B2 L U' L' B2 U R2 D L D' L2 U L' B2 R' U R B2 U' L2,steps:305
+total time:19.635796546936035 seconds
+Front:
+[['G' 'W' 'B']
+ ['B' 'W' 'W']
+ ['W' 'Y' 'W']]
+Left:
+[['R' 'R' 'R']
+ ['O' 'R' 'O']
+ ['O' 'R' 'R']]
+Back:
+[['G' 'Y' 'B']
+ ['Y' 'Y' 'G']
+ ['Y' 'W' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['Y' 'G' 'W']
+ ['B' 'G' 'G']
+ ['Y' 'B' 'W']]
+Bottom:
+[['B' 'B' 'G']
+ ['Y' 'B' 'W']
+ ['G' 'G' 'B']]
+
+generation:0
+Front:
+[['W' 'B' 'G']
+ ['G' 'B' 'W']
+ ['W' 'B' 'B']]
+Left:
+[['R' 'R' 'O']
+ ['R' 'R' 'R']
+ ['R' 'O' 'O']]
+Back:
+[['B' 'G' 'Y']
+ ['Y' 'G' 'B']
+ ['G' 'G' 'Y']]
+Right:
+[['R' 'O' 'R']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Top:
+[['G' 'W' 'W']
+ ['W' 'W' 'B']
+ ['B' 'W' 'W']]
+Bottom:
+[['G' 'Y' 'Y']
+ ['G' 'Y' 'Y']
+ ['B' 'Y' 'Y']]
+
+generation:1
+Front:
+[['W' 'W' 'B']
+ ['W' 'W' 'B']
+ ['W' 'W' 'G']]
+Left:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['O' 'R' 'R']]
+Back:
+[['Y' 'Y' 'B']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'G']]
+Right:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['Y' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['G' 'G' 'W']]
+Bottom:
+[['B' 'B' 'Y']
+ ['G' 'B' 'W']
+ ['W' 'B' 'B']]
+
+generation:2
+Front:
+[['O' 'R' 'O']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Left:
+[['B' 'G' 'B']
+ ['Y' 'G' 'W']
+ ['G' 'G' 'G']]
+Back:
+[['R' 'O' 'R']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Right:
+[['G' 'B' 'G']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:3
+Front:
+[['R' 'O' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Left:
+[['G' 'B' 'G']
+ ['Y' 'G' 'W']
+ ['G' 'G' 'G']]
+Back:
+[['O' 'R' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Right:
+[['B' 'G' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+Top:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Bottom:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:4
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Left:
+[['G' 'G' 'G']
+ ['Y' 'G' 'W']
+ ['G' 'G' 'G']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Right:
+[['B' 'B' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:5
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Left:
+[['G' 'G' 'G']
+ ['Y' 'G' 'W']
+ ['G' 'G' 'G']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Right:
+[['B' 'B' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:6
+Front:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'W']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['B' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+
+generation:7
+Front:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'W']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['B' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+
+generation:8
+Front:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'W']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['B' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+
+generation:9
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['W' 'W' 'W']
+ ['B' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:10
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['W' 'W' 'W']
+ ['B' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:11
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['W' 'W' 'W']
+ ['B' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:12
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['W' 'W' 'W']
+ ['B' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:13
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['W' 'W' 'W']
+ ['B' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:14
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['W' 'W' 'W']
+ ['B' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:15
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['W' 'W' 'W']
+ ['B' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:16
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['W' 'W' 'W']
+ ['B' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:17
+Front:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Back:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:18
+Front:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Back:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:19
+Front:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:20
+Front:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:21
+Front:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:22
+Front:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:23
+Front:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:24
+Front:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:25
+Front:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:26
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Bottom:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+
+generation:27
+find a solution, Scramble: ['D2', "R'", "M'", 'S2', "U'", 'x2']
+Solution:D L R2 L2 y R' U2 R L' B2 L x2 z R' U L' U2 R U' L R' U L' U2 R U' L U' U2 y2 R' U L' U2 R U' L R' U L' U2 R U' L U' z2 L' U2 L R' F2 R L' U2 L R' F2 R y z R' U2 R L' B2 L y' L' U2 L R' F2 R z2 y2 R' U2 R L' B2 L D L D' L2 U L' B2 R' U R B2 U' L2 D' R' D R2 U' R B2 L U' L' B2 U R2 R' U2 R L' B2 L z y U B2 D2 R F2 D2 B2 L U F R B L U L' U B' R' F' L' U' L U' z F' L' B' R' U' R U' B L F R U R' U,steps:153
+total time:5.17077112197876 seconds
+Front:
+[['G' 'W' 'B']
+ ['B' 'W' 'W']
+ ['W' 'Y' 'W']]
+Left:
+[['R' 'R' 'R']
+ ['O' 'R' 'O']
+ ['O' 'R' 'R']]
+Back:
+[['G' 'Y' 'B']
+ ['Y' 'Y' 'G']
+ ['Y' 'W' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['Y' 'G' 'W']
+ ['B' 'G' 'G']
+ ['Y' 'B' 'W']]
+Bottom:
+[['B' 'B' 'G']
+ ['Y' 'B' 'W']
+ ['G' 'G' 'B']]
+
+generation:0
+Front:
+[['W' 'W' 'W']
+ ['G' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'O']
+ ['R' 'R' 'R']
+ ['R' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:1
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:2
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:3
+Front:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'Y' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Back:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Right:
+[['Y' 'G' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:4
+Front:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'Y' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Back:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Right:
+[['Y' 'G' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:5
+Front:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'W']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+
+generation:6
+Front:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'W']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+
+generation:7
+Front:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'W']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+
+generation:8
+Front:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'W']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+
+generation:9
+Front:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'W']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+
+generation:10
+Front:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'W']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+
+generation:11
+Front:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'W']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+
+generation:12
+Front:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'W']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+
+generation:13
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:14
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:15
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:16
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:17
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:18
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:19
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:20
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:21
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:22
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:23
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:24
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:25
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:26
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:27
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'O' 'Y']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Back:
+[['W' 'R' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['O' 'B' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'W' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:28
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:29
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:30
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:31
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:32
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:33
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:34
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:35
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:36
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:37
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:38
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:39
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:40
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:41
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:42
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:43
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:44
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:45
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:46
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:47
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:48
+find a solution, Scramble: ['D2', "R'", "M'", 'S2', "U'", 'x2']
+Solution:D R2 L' F2 y' U' B2 D2 L' F2 D2 B2 R' U' U B2 D2 R F2 D2 B2 L U R' U2 R L' B2 L x' F' L' B' R' U' R U' B L F R U R' U R' U2 R L' B2 L y M2 U M2 U2 M2 U M2 x2 z2 R' U2 R L' B2 L x2 F R B L U L' U B' R' F' L' U' L U' L' U2 L R' F2 R M2 U M2 U2 M2 U M2 L' U2 L R' F2 R M2 U M2 U2 M2 U M2 D L D' L2 U L' B2 R' U R B2 U' L2 D' R' D R2 U' R B2 L U' L' B2 U R2 F R B L U L' U B' R' F' L' U' L U' F R B L U L' U B' R' F' L' U' L U' x R' U2 R L' B2 L x z2 M2 U M2 U2 M2 U M2 D L D' L2 U L' B2 R' U R B2 U' L2 D' R' D R2 U' R B2 L U' L' B2 U R2,steps:203
+total time:9.587294816970825 seconds
+Front:
+[['G' 'W' 'B']
+ ['B' 'W' 'W']
+ ['W' 'Y' 'W']]
+Left:
+[['R' 'R' 'R']
+ ['O' 'R' 'O']
+ ['O' 'R' 'R']]
+Back:
+[['G' 'Y' 'B']
+ ['Y' 'Y' 'G']
+ ['Y' 'W' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['Y' 'G' 'W']
+ ['B' 'G' 'G']
+ ['Y' 'B' 'W']]
+Bottom:
+[['B' 'B' 'G']
+ ['Y' 'B' 'W']
+ ['G' 'G' 'B']]
+
+generation:0
+Front:
+[['W' 'W' 'W']
+ ['G' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'O']
+ ['R' 'R' 'R']
+ ['R' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:1
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:2
+Front:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'Y' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['O' 'R' 'O']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'R' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+
+generation:3
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'B' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:4
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'B' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:5
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'B' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:6
+Front:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Left:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+
+generation:7
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:8
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:9
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:10
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:11
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:12
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:13
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:14
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:15
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:16
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:17
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:18
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:19
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:20
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:21
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:22
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:23
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:24
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:25
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:26
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:27
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:28
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:29
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:30
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:31
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:32
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:33
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:34
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:35
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:36
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:37
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:38
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:39
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'R' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:40
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:41
+find a solution, Scramble: ['D2', "R'", "M'", 'S2', "U'", 'x2']
+Solution:D L' R2 F2 y R' U2 R L' B2 L U' B2 D2 L' F2 D2 B2 R' U' F R B L U L' U B' R' F' L' U' L U' R' U2 R L' B2 L y2 F' L' B' R' U' R U' B L F R U R' U x2 U' B2 D2 L' F2 D2 B2 R' U' x2 z U B2 D2 R F2 D2 B2 L U z' x F R B L U L' U B' R' F' L' U' L U' y' F' L' B' R' U' R U' B L F R U R' U R' U L' U2 R U' L R' U L' U2 R U' L U' R' U L' U2 R U' L R' U L' U2 R U' L U' x' z' F R B L U L' U B' R' F' L' U' L U' x2 z F R B L U L' U B' R' F' L' U' L U',steps:169
+total time:7.93086051940918 seconds
+Front:
+[['G' 'W' 'B']
+ ['B' 'W' 'W']
+ ['W' 'Y' 'W']]
+Left:
+[['R' 'R' 'R']
+ ['O' 'R' 'O']
+ ['O' 'R' 'R']]
+Back:
+[['G' 'Y' 'B']
+ ['Y' 'Y' 'G']
+ ['Y' 'W' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['Y' 'G' 'W']
+ ['B' 'G' 'G']
+ ['Y' 'B' 'W']]
+Bottom:
+[['B' 'B' 'G']
+ ['Y' 'B' 'W']
+ ['G' 'G' 'B']]
+
+generation:0
+Front:
+[['W' 'W' 'B']
+ ['W' 'W' 'B']
+ ['W' 'W' 'G']]
+Left:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['O' 'R' 'R']]
+Back:
+[['Y' 'Y' 'B']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'G']]
+Right:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['Y' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['G' 'G' 'W']]
+Bottom:
+[['B' 'B' 'Y']
+ ['G' 'B' 'W']
+ ['W' 'B' 'B']]
+
+generation:1
+Front:
+[['W' 'W' 'B']
+ ['W' 'W' 'B']
+ ['W' 'W' 'G']]
+Left:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['O' 'R' 'R']]
+Back:
+[['Y' 'Y' 'B']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'G']]
+Right:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['Y' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['G' 'G' 'W']]
+Bottom:
+[['B' 'B' 'Y']
+ ['G' 'B' 'W']
+ ['W' 'B' 'B']]
+
+generation:2
+Front:
+[['W' 'Y' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'W' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['G' 'B' 'G']]
+Bottom:
+[['B' 'G' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:3
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'Y' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'W' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'B']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['G' 'B' 'B']
+ ['B' 'G' 'B']]
+
+generation:4
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'G' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+
+generation:5
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'G' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+
+generation:6
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'G' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+
+generation:7
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'G' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+
+generation:8
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'G' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+
+generation:9
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'G' 'B']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'O']
+ ['R' 'R' 'R']]
+
+generation:10
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'Y']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['W' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:11
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:12
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:13
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:14
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:15
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:16
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:17
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:18
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:19
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:20
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:21
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:22
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:23
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:24
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:25
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:26
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:27
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:28
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:29
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:30
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:31
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:32
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:33
+Front:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:34
+Front:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:35
+find a solution, Scramble: ['D2', "R'", "M'", 'S2', "U'", 'x2']
+Solution:D L' R2 z D L D' L2 U L' B2 R' U R B2 U' L2 F2 z2 D L D' L2 U L' B2 R' U R B2 U' L2 z2 M2 U M2 U2 M2 U M2 M2 U M2 U2 M2 U M2 y' F R B L U L' U B' R' F' L' U' L U' F R B L U L' U B' R' F' L' U' L U' R' U2 R L' B2 L M2 U M2 U2 M2 U M2 D' R' D R2 U' R B2 L U' L' B2 U R2 D L D' L2 U L' B2 R' U R B2 U' L2,steps:115
+total time:6.629444360733032 seconds
+Front:
+[['G' 'W' 'B']
+ ['B' 'W' 'W']
+ ['W' 'Y' 'W']]
+Left:
+[['R' 'R' 'R']
+ ['O' 'R' 'O']
+ ['O' 'R' 'R']]
+Back:
+[['G' 'Y' 'B']
+ ['Y' 'Y' 'G']
+ ['Y' 'W' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['Y' 'G' 'W']
+ ['B' 'G' 'G']
+ ['Y' 'B' 'W']]
+Bottom:
+[['B' 'B' 'G']
+ ['Y' 'B' 'W']
+ ['G' 'G' 'B']]
+
+generation:0
+Front:
+[['W' 'W' 'W']
+ ['G' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'O']
+ ['R' 'R' 'R']
+ ['R' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:1
+Front:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'G']
+ ['B' 'B' 'G']
+ ['B' 'W' 'G']]
+Back:
+[['Y' 'G' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['B' 'G' 'G']
+ ['B' 'G' 'G']
+ ['B' 'Y' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['O' 'R' 'O']
+ ['O' 'R' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+
+generation:2
+Front:
+[['B' 'G' 'G']
+ ['Y' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['O' 'R' 'R']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Back:
+[['G' 'B' 'B']
+ ['B' 'B' 'W']
+ ['B' 'B' 'B']]
+Right:
+[['R' 'R' 'O']
+ ['O' 'R' 'O']
+ ['R' 'R' 'R']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+
+generation:3
+Front:
+[['B' 'G' 'G']
+ ['Y' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['O' 'R' 'R']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Back:
+[['G' 'B' 'B']
+ ['B' 'B' 'W']
+ ['B' 'B' 'B']]
+Right:
+[['R' 'R' 'O']
+ ['O' 'R' 'O']
+ ['R' 'R' 'R']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+
+generation:4
+Front:
+[['B' 'G' 'G']
+ ['Y' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['O' 'R' 'R']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Back:
+[['G' 'B' 'B']
+ ['B' 'B' 'W']
+ ['B' 'B' 'B']]
+Right:
+[['R' 'R' 'O']
+ ['O' 'R' 'O']
+ ['R' 'R' 'R']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+
+generation:5
+Front:
+[['O' 'B' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['B' 'R' 'O']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['Y' 'G' 'R']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'O' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'G' 'Y']]
+
+generation:6
+Front:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'O' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'R' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'G' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'B' 'R']]
+
+generation:7
+Front:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'O' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'R' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'G' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'B' 'R']]
+
+generation:8
+Front:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['G' 'G' 'G']
+ ['W' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'G' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:9
+Front:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['G' 'G' 'G']
+ ['W' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'G' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:10
+Front:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['G' 'G' 'G']
+ ['W' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'G' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:11
+Front:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['G' 'G' 'G']
+ ['W' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['O' 'R' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'G' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:12
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:13
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:14
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:15
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:16
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:17
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:18
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:19
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:20
+Front:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'B' 'G']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'G' 'Y']]
+Back:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+
+generation:21
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+
+generation:22
+find a solution, Scramble: ['D2', "R'", "M'", 'S2', "U'", 'x2']
+Solution:D L' z M2 U M2 U2 M2 U M2 D2 z x L U' R U2 L' U R' L U' R U2 L' U R' U z' L' U2 L R' F2 R y2 L' U2 L R' F2 R x z' L U' R U2 L' U R' L U' R U2 L' U R' U U' B2 D2 L' F2 D2 B2 R' U' F' L' B' R' U' R U' B L F R U R' U R' U2 R L' B2 L y2 z L' U2 L R' F2 R F' L' B' R' U' R U' B L F R U R' U x F' L' B' R' U' R U' B L F R U R' U x' U B2 D2 R F2 D2 B2 L U y2 z L' U2 L R' F2 R R' U2 R L' B2 L z2 x R' U2 R L' B2 L x L' U2 L R' F2 R,steps:164
+total time:4.37105393409729 seconds
+Front:
+[['G' 'W' 'B']
+ ['B' 'W' 'W']
+ ['W' 'Y' 'W']]
+Left:
+[['R' 'R' 'R']
+ ['O' 'R' 'O']
+ ['O' 'R' 'R']]
+Back:
+[['G' 'Y' 'B']
+ ['Y' 'Y' 'G']
+ ['Y' 'W' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['Y' 'G' 'W']
+ ['B' 'G' 'G']
+ ['Y' 'B' 'W']]
+Bottom:
+[['B' 'B' 'G']
+ ['Y' 'B' 'W']
+ ['G' 'G' 'B']]
+
+generation:0
+Front:
+[['W' 'W' 'W']
+ ['G' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'O']
+ ['R' 'R' 'R']
+ ['R' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:1
+Front:
+[['R' 'R' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'G' 'G']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+Back:
+[['O' 'R' 'R']
+ ['O' 'R' 'O']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'B' 'B']
+ ['Y' 'G' 'B']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+
+generation:2
+Front:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Right:
+[['W' 'W' 'W']
+ ['G' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['G' 'B' 'B']
+ ['G' 'G' 'B']
+ ['G' 'Y' 'G']]
+Bottom:
+[['B' 'G' 'G']
+ ['B' 'B' 'G']
+ ['B' 'W' 'B']]
+
+generation:3
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'R' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'O' 'G']
+ ['G' 'G' 'G']
+ ['G' 'Y' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['O' 'R' 'B']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'G' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+
+generation:4
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'R' 'W']]
+Left:
+[['B' 'G' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Back:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'O' 'G']
+ ['G' 'G' 'G']
+ ['G' 'Y' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['O' 'R' 'B']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'G' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+
+generation:5
+Front:
+[['B' 'O' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Left:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'R' 'W']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'B' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'G']
+ ['O' 'O' 'O']]
+
+generation:6
+Front:
+[['B' 'O' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Left:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'R' 'W']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'B' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'G']
+ ['O' 'O' 'O']]
+
+generation:7
+Front:
+[['B' 'O' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Left:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'R' 'W']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'B' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'G']
+ ['O' 'O' 'O']]
+
+generation:8
+Front:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'G' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+
+generation:9
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['B' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:10
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['B' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:11
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['B' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:12
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['B' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:13
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['B' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:14
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['B' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:15
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['B' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:16
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['B' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:17
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['B' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:18
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:19
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:20
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:21
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:22
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:23
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:24
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:25
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:26
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:27
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:28
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:29
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:30
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:31
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:32
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:33
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:34
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:35
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:36
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:37
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:38
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:39
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:40
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['Y' 'W' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:41
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:42
+find a solution, Scramble: ['D2', "R'", "M'", 'S2', "U'", 'x2']
+Solution:D R2 L' z F' L' B' R' U' R U' B L F R U R' U F2 y' R' U2 R L' B2 L x' z2 F' L' B' R' U' R U' B L F R U R' U L' U2 L R' F2 R z' F R B L U L' U B' R' F' L' U' L U' U B2 D2 R F2 D2 B2 L U x' z2 F R B L U L' U B' R' F' L' U' L U' y2 L' U2 L R' F2 R y F R B L U L' U B' R' F' L' U' L U' U' B2 D2 L' F2 D2 B2 R' U' U B2 D2 R F2 D2 B2 L U y M2 U M2 U2 M2 U M2 D' R' D R2 U' R B2 L U' L' B2 U R2 D L D' L2 U L' B2 R' U R B2 U' L2,steps:162
+total time:8.099335432052612 seconds
+Front:
+[['G' 'W' 'B']
+ ['B' 'W' 'W']
+ ['W' 'Y' 'W']]
+Left:
+[['R' 'R' 'R']
+ ['O' 'R' 'O']
+ ['O' 'R' 'R']]
+Back:
+[['G' 'Y' 'B']
+ ['Y' 'Y' 'G']
+ ['Y' 'W' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['Y' 'G' 'W']
+ ['B' 'G' 'G']
+ ['Y' 'B' 'W']]
+Bottom:
+[['B' 'B' 'G']
+ ['Y' 'B' 'W']
+ ['G' 'G' 'B']]
+
+generation:0
+Front:
+[['Y' 'Y' 'W']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Left:
+[['G' 'Y' 'B']
+ ['G' 'B' 'B']
+ ['G' 'G' 'B']]
+Back:
+[['W' 'W' 'Y']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Right:
+[['G' 'W' 'B']
+ ['G' 'G' 'B']
+ ['G' 'B' 'B']]
+Top:
+[['O' 'R' 'R']
+ ['R' 'O' 'O']
+ ['O' 'O' 'R']]
+Bottom:
+[['R' 'R' 'R']
+ ['O' 'R' 'O']
+ ['O' 'R' 'O']]
+
+generation:1
+Front:
+[['R' 'O' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'G' 'G']
+ ['G' 'B' 'W']
+ ['W' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'O']]
+Right:
+[['W' 'B' 'Y']
+ ['Y' 'G' 'B']
+ ['G' 'G' 'Y']]
+Top:
+[['W' 'W' 'G']
+ ['W' 'W' 'W']
+ ['W' 'B' 'B']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['G' 'G' 'B']]
+
+generation:2
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'Y']]
+Left:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'B' 'G']]
+Back:
+[['W' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Right:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'G' 'B']]
+Top:
+[['O' 'O' 'R']
+ ['O' 'O' 'R']
+ ['O' 'R' 'O']]
+Bottom:
+[['R' 'R' 'O']
+ ['O' 'R' 'O']
+ ['R' 'R' 'R']]
+
+generation:3
+Front:
+[['W' 'G' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'Y']]
+Left:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'B' 'G']]
+Back:
+[['W' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'B' 'Y']]
+Right:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'G' 'B']]
+Top:
+[['O' 'O' 'R']
+ ['O' 'O' 'R']
+ ['O' 'R' 'O']]
+Bottom:
+[['R' 'R' 'O']
+ ['O' 'R' 'O']
+ ['R' 'R' 'R']]
+
+generation:4
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['G' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'G' 'B']]
+Bottom:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'B' 'G']]
+
+generation:5
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Back:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'G' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+
+generation:6
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Back:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'G' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+
+generation:7
+Front:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'B' 'W']]
+Back:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'G' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+
+generation:8
+Front:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'G' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:9
+Front:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'G' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:10
+Front:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'G' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:11
+Front:
+[['G' 'W' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'G' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:12
+Front:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:13
+Front:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:14
+Front:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:15
+Front:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['B' 'Y' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Right:
+[['Y' 'B' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['R' 'R' 'R']
+ ['O' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:16
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:17
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:18
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:19
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:20
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:21
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:22
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:23
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:24
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:25
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:26
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:27
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:28
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:29
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:30
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:31
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:32
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:33
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:34
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:35
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:36
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:37
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:38
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:39
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:40
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:41
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:42
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:43
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:44
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:45
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:46
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:47
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:48
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:49
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:50
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:51
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:52
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:53
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:54
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:55
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:56
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:57
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:58
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:59
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:60
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:61
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:62
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:63
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:64
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:65
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:66
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:67
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:68
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:69
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:70
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:71
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:72
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['B' 'B' 'B']
+ ['Y' 'B' 'B']
+ ['B' 'B' 'B']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Top:
+[['W' 'B' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Bottom:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'W' 'Y']]
+
+generation:73
+Front:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Left:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Back:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Right:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:74
+find a solution, Scramble: ['D2', "R'", "M'", 'S2', "U'", 'x2']
+Solution:D L z' L U' R U2 L' U R' L U' R U2 L' U R' U D2 F2 R' U2 R L' B2 L L' U2 L R' F2 R x' z' R' U L' U2 R U' L R' U L' U2 R U' L U' y2 z' F R B L U L' U B' R' F' L' U' L U' F R B L U L' U B' R' F' L' U' L U' y z R' U2 R L' B2 L L' U2 L R' F2 R D' R' D R2 U' R B2 L U' L' B2 U R2 D L D' L2 U L' B2 R' U R B2 U' L2 x z R' U2 R L' B2 L F R B L U L' U B' R' F' L' U' L U' F R B L U L' U B' R' F' L' U' L U' x z2 M2 U M2 U2 M2 U M2 D L D' L2 U L' B2 R' U R B2 U' L2 D' R' D R2 U' R B2 L U' L' B2 U R2,steps:190
+total time:14.780283212661743 seconds
+Front:
+[['G' 'W' 'B']
+ ['B' 'W' 'W']
+ ['W' 'Y' 'W']]
+Left:
+[['R' 'R' 'R']
+ ['O' 'R' 'O']
+ ['O' 'R' 'R']]
+Back:
+[['G' 'Y' 'B']
+ ['Y' 'Y' 'G']
+ ['Y' 'W' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['Y' 'G' 'W']
+ ['B' 'G' 'G']
+ ['Y' 'B' 'W']]
+Bottom:
+[['B' 'B' 'G']
+ ['Y' 'B' 'W']
+ ['G' 'G' 'B']]
+
+generation:0
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'B']
+ ['B' 'W' 'G']]
+Left:
+[['O' 'O' 'R']
+ ['O' 'O' 'R']
+ ['O' 'R' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['G' 'Y' 'Y']
+ ['B' 'Y' 'G']]
+Right:
+[['R' 'R' 'O']
+ ['O' 'R' 'O']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'G']
+ ['W' 'B' 'Y']
+ ['G' 'B' 'B']]
+Bottom:
+[['W' 'G' 'Y']
+ ['G' 'G' 'B']
+ ['W' 'G' 'Y']]
+
+generation:1
+Front:
+[['W' 'W' 'Y']
+ ['W' 'W' 'B']
+ ['W' 'W' 'Y']]
+Left:
+[['O' 'O' 'R']
+ ['R' 'R' 'R']
+ ['O' 'O' 'R']]
+Back:
+[['Y' 'Y' 'W']
+ ['Y' 'Y' 'G']
+ ['Y' 'Y' 'W']]
+Right:
+[['R' 'R' 'O']
+ ['R' 'O' 'O']
+ ['R' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['B' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:2
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:3
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:4
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Left:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Back:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Right:
+[['O' 'R' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Top:
+[['G' 'G' 'G']
+ ['B' 'G' 'Y']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'B' 'B']
+ ['G' 'B' 'W']
+ ['B' 'B' 'B']]
+
+generation:5
+Front:
+[['O' 'O' 'O']
+ ['B' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['G' 'W' 'W']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'B' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['R' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:6
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'O' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'B' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'Y' 'B']]
+
+generation:7
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:8
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:9
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:10
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:11
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:12
+Front:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'B']
+ ['Y' 'Y' 'Y']]
+Top:
+[['G' 'Y' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Bottom:
+[['B' 'W' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+
+generation:13
+Front:
+[['O' 'O' 'O']
+ ['O' 'O' 'R']
+ ['O' 'O' 'O']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'G']
+ ['W' 'W' 'W']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'W' 'B']]
+Bottom:
+[['G' 'B' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+
+generation:14
+Front:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+
+generation:15
+Front:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+
+generation:16
+Front:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Left:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'G' 'W']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'W' 'G']]
+Right:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Top:
+[['O' 'O' 'O']
+ ['R' 'O' 'O']
+ ['O' 'O' 'O']]
+Bottom:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'O' 'R']]
+
+generation:17
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:18
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:19
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:20
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:21
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:22
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:23
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:24
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:25
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:26
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:27
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:28
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:29
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:30
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:31
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:32
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:33
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:34
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:35
+Front:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Left:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+Back:
+[['Y' 'Y' 'Y']
+ ['B' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Right:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Top:
+[['B' 'B' 'B']
+ ['B' 'B' 'G']
+ ['B' 'B' 'B']]
+Bottom:
+[['G' 'G' 'G']
+ ['G' 'G' 'Y']
+ ['G' 'G' 'G']]
+
+generation:36
+Front:
+[['B' 'B' 'B']
+ ['B' 'B' 'B']
+ ['B' 'B' 'B']]
+Left:
+[['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']
+ ['Y' 'Y' 'Y']]
+Back:
+[['G' 'G' 'G']
+ ['G' 'G' 'G']
+ ['G' 'G' 'G']]
+Right:
+[['W' 'W' 'W']
+ ['W' 'W' 'W']
+ ['W' 'W' 'W']]
+Top:
+[['R' 'R' 'R']
+ ['R' 'R' 'R']
+ ['R' 'R' 'R']]
+Bottom:
+[['O' 'O' 'O']
+ ['O' 'O' 'O']
+ ['O' 'O' 'O']]
+
+generation:37
+find a solution, Scramble: ['D2', "R'", "M'", 'S2', "U'", 'x2']
+Solution:D L R2 L2 F2 y U' B2 D2 L' F2 D2 B2 R' U' L' U2 L R' F2 R U B2 D2 R F2 D2 B2 L U R' U2 R L' B2 L y2 L' U2 L R' F2 R x2 z' F R B L U L' U B' R' F' L' U' L U' x' z F' L' B' R' U' R U' B L F R U R' U x' z' M2 U M2 U2 M2 U M2 R' U L' U2 R U' L R' U L' U2 R U' L U' R' U L' U2 R U' L R' U L' U2 R U' L U' D' R' D R2 U' R B2 L U' L' B2 U R2 D L D' L2 U L' B2 R' U R B2 U' L2,steps:140
+total time:7.132195711135864 seconds
