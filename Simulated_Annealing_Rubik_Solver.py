@@ -18,13 +18,13 @@ class SimulatedAnnealing:
         self.solutions = []
 
     def accept(self, candidate):  # Metropolis
-        candidateFitness = candidate.fitness()
+        candidateFitness = candidate.fitnessSA()
 
-        if candidateFitness < self.currentSolution.fitness():
+        if candidateFitness < self.currentSolution.fitnessSA():
             self.currentSolution = candidate
             
         else:
-            accepting_probability = math.exp(-abs(candidateFitness - self.currentSolution.fitness()) / self.temperature)
+            accepting_probability = math.exp(-abs(candidateFitness - self.currentSolution.fitnessSA()) / self.temperature)
             if random.random() < accepting_probability:
                 self.currentSolution = candidate
 
@@ -40,7 +40,7 @@ class SimulatedAnnealing:
 
     def simulated_annealing(self, rubik, initalState):
 
-        # rubik.execute(initalState)
+        # rubik.executeSA(initalState)
         self.currentSolution = rubik
 
         while(self.temperature >= self.temperatureLimit and self.currentGeneration <= self.maxGeneration):
@@ -50,29 +50,29 @@ class SimulatedAnnealing:
             permuteRandom = random.randint(0, 5)
 
             if permuteRandom == 0:
-                candidate.execute(rubik.random_permutation())
+                candidate.executeSA(rubik.random_permutation())
 
             elif permuteRandom == 1:
-                candidate.execute(rubik.random_permutation())
-                candidate.execute(rubik.random_permutation())
+                candidate.executeSA(rubik.random_permutation())
+                candidate.executeSA(rubik.random_permutation())
 
             elif permuteRandom == 2:
-                candidate.execute(rubik.random_full_rotation())
-                candidate.execute(rubik.random_permutation())
+                candidate.executeSA(rubik.random_full_rotation())
+                candidate.executeSA(rubik.random_permutation())
 
             elif permuteRandom == 3:
-                candidate.execute(rubik.random_orientation())
-                candidate.execute(rubik.random_permutation())
+                candidate.executeSA(rubik.random_orientation())
+                candidate.executeSA(rubik.random_permutation())
 
             elif permuteRandom == 4:
-                candidate.execute(rubik.random_full_rotation())
-                candidate.execute(rubik.random_orientation())
-                candidate.execute(rubik.random_permutation())
+                candidate.executeSA(rubik.random_full_rotation())
+                candidate.executeSA(rubik.random_orientation())
+                candidate.executeSA(rubik.random_permutation())
 
             elif permuteRandom == 5:
-                candidate.execute(rubik.random_orientation())
-                candidate.execute(rubik.random_full_rotation())
-                candidate.execute(rubik.random_permutation())
+                candidate.executeSA(rubik.random_orientation())
+                candidate.executeSA(rubik.random_full_rotation())
+                candidate.executeSA(rubik.random_permutation())
 
             self.accept(candidate)
             self.temperature *= self.alpha
@@ -86,9 +86,9 @@ class SimulatedAnnealing:
 
 
 
-            if(self.currentSolution.fitness() == 0):
+            if(self.currentSolution.fitnessSA() == 0):
+                rubik.toString(rubik.state)
                 print("Solution found. The output is dumped to SA_solution.txt file")
-                self.currentSolution.toString(self.currentSolution.state)
                 outputFile = open("SA_solution.txt", "w")
                 outputFile.write("Rubik_Test:")
                 outputFile.write(self.currentSolution.get_algorithm_string())

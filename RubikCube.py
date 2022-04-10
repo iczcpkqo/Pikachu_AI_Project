@@ -143,6 +143,12 @@ class RubikCube():
                 actions.append(temp)
         return actions
 
+    def executeSA(self, actions):
+        for action in actions:
+            self.state = self.movesLookup[action](self.state)
+        self.moveHistory.append(actions)
+        self.fitnessSA()
+
     def execute(self, actions):
         for action in actions:
             self.state = self.movesLookup[action](self.state)
@@ -199,11 +205,11 @@ class RubikCube():
 
         return reward
 
-    # def fitness(self):
-    #     currentCompletion = np.array(self.state) - np.array(self.initial)
-    #     currentCompletion = 54 - np.count_nonzero(currentCompletion)
-    #     self.fitnessValue = currentCompletion
-    #     return self.fitnessValue
+    def fitnessSA(self):
+        currentCompletion = np.array(self.state) - np.array(self.initial)
+        currentCompletion = 54 - np.count_nonzero(currentCompletion)
+        self.fitnessValue = currentCompletion
+        return self.fitnessValue
 
     def fitness(self):
         miss_stickers = 0
