@@ -210,7 +210,7 @@ class RubikCube():
                     if face[i, j] == center:
                         right_stickers += 1
         self.fitnessValue = right_stickers
-
+        return self.fitnessValue
 
     def get_algorithm(self):
         return [item for sublist in self.moveHistory[1:] for item in sublist]
