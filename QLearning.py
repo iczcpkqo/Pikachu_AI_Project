@@ -76,7 +76,7 @@ class QLearningAgent():
 
 
 
-agent = QLearningAgent(0.8,1,0.2)
+agent = QLearningAgent(0.5,0.9,0.2)
 # agent.selectAction(cube.getCurrentState())
 for episode in range(1000):
     state = cp.deepcopy(cube.getStartState())
