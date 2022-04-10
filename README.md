@@ -6,11 +6,11 @@
 ### 3. Link to presentation
 	https://drive.google.com/file/d/1Aiu376wGfMsgpqbuYWplMlIhkzdYdW11/view?usp=sharing
 ### 4. Group members list
-	* Bo Peng	pengb@tcd.ie
-	* Wanying Jiang	jiangwa@tcd.ie
-	* Xiang Mao	maoxi@tcd.ie
-	* Xiangyu Zheng	xizheng@tcd.ie
-	* Yigao Xie	xieyi@tcd.ie
+	 Bo Peng	pengb@tcd.ie
+	 Wanying Jiang	jiangwa@tcd.ie
+	 Xiang Mao	maoxi@tcd.ie
+	 Xiangyu Zheng	xizheng@tcd.ie
+	 Yigao Xie	xieyi@tcd.ie
 ### 5.  Summary of contributions of each member
 	Bo Peng
 		i. Code: Simulated Annealing algorithm, code integration
